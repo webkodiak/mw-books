@@ -6,45 +6,45 @@
 ;; is confirmed (Step 0) - one Beancount account per real-world account.
 
 ;; --- Equity ---
-2026-01-01 open Equity:KML:Opening-Balances        USD
-2026-01-01 open Equity:KML:Owner-Contributions     USD
-2026-01-01 open Equity:KML:Owner-Draws             USD
+2025-01-01 open Equity:KML:Opening-Balances        USD
+2025-01-01 open Equity:KML:Owner-Contributions     USD
+2025-01-01 open Equity:KML:Owner-Draws             USD
 
 ;; --- Intercompany (open pairs as needed; pattern below) ---
 ;; 2026-01-01 open Assets:KML:DueFrom:<OtherEntity>   USD
 ;; 2026-01-01 open Liabilities:KML:DueTo:<OtherEntity> USD
 
 ;; --- Income ---
-2026-01-01 open Income:KML:Sales  USD
-2026-01-01 open Income:KML:Services  USD
-2026-01-01 open Income:KML:Rental  USD
-2026-01-01 open Income:KML:Interest  USD
-2026-01-01 open Income:KML:Other  USD
-2026-01-01 open Income:KML:Uncategorized  USD
+2025-01-01 open Income:KML:Sales  USD
+2025-01-01 open Income:KML:Services  USD
+2025-01-01 open Income:KML:Rental  USD
+2025-01-01 open Income:KML:Interest  USD
+2025-01-01 open Income:KML:Other  USD
+2025-01-01 open Income:KML:Uncategorized  USD
 
 ;; --- Expenses ---
-2026-01-01 open Expenses:KML:Advertising-Marketing  USD
-2026-01-01 open Expenses:KML:Auto-Vehicle  USD
-2026-01-01 open Expenses:KML:Bank-Fees  USD
-2026-01-01 open Expenses:KML:Contract-Labor  USD
-2026-01-01 open Expenses:KML:Insurance  USD
-2026-01-01 open Expenses:KML:Interest  USD
-2026-01-01 open Expenses:KML:Legal-Professional  USD
-2026-01-01 open Expenses:KML:Licenses-Permits  USD
-2026-01-01 open Expenses:KML:Materials-Supplies  USD
-2026-01-01 open Expenses:KML:Meals  USD
-2026-01-01 open Expenses:KML:Merchant-Fees  USD
-2026-01-01 open Expenses:KML:Office-Supplies  USD
-2026-01-01 open Expenses:KML:Payroll:Wages  USD
-2026-01-01 open Expenses:KML:Payroll:Taxes  USD
-2026-01-01 open Expenses:KML:Rent-Lease  USD
-2026-01-01 open Expenses:KML:Repairs-Maintenance  USD
-2026-01-01 open Expenses:KML:Software-Subscriptions  USD
-2026-01-01 open Expenses:KML:Taxes:Property  USD
-2026-01-01 open Expenses:KML:Taxes:Other  USD
-2026-01-01 open Expenses:KML:Travel  USD
-2026-01-01 open Expenses:KML:Utilities  USD
-2026-01-01 open Expenses:KML:Uncategorized  USD
+2025-01-01 open Expenses:KML:Advertising-Marketing  USD
+2025-01-01 open Expenses:KML:Auto-Vehicle  USD
+2025-01-01 open Expenses:KML:Bank-Fees  USD
+2025-01-01 open Expenses:KML:Contract-Labor  USD
+2025-01-01 open Expenses:KML:Insurance  USD
+2025-01-01 open Expenses:KML:Interest  USD
+2025-01-01 open Expenses:KML:Legal-Professional  USD
+2025-01-01 open Expenses:KML:Licenses-Permits  USD
+2025-01-01 open Expenses:KML:Materials-Supplies  USD
+2025-01-01 open Expenses:KML:Meals  USD
+2025-01-01 open Expenses:KML:Merchant-Fees  USD
+2025-01-01 open Expenses:KML:Office-Supplies  USD
+2025-01-01 open Expenses:KML:Payroll:Wages  USD
+2025-01-01 open Expenses:KML:Payroll:Taxes  USD
+2025-01-01 open Expenses:KML:Rent-Lease  USD
+2025-01-01 open Expenses:KML:Repairs-Maintenance  USD
+2025-01-01 open Expenses:KML:Software-Subscriptions  USD
+2025-01-01 open Expenses:KML:Taxes:Property  USD
+2025-01-01 open Expenses:KML:Taxes:Other  USD
+2025-01-01 open Expenses:KML:Travel  USD
+2025-01-01 open Expenses:KML:Utilities  USD
+2025-01-01 open Expenses:KML:Uncategorized  USD
 
 ;; --- Placeholders (replace with real accounts from the inventory) ---
 ;; 2026-01-01 open Assets:KML:Bank:Mercury-Checking-1234  USD

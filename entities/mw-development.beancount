@@ -6,45 +6,45 @@
 ;; is confirmed (Step 0) - one Beancount account per real-world account.
 
 ;; --- Equity ---
-2026-01-01 open Equity:MWDev:Opening-Balances        USD
-2026-01-01 open Equity:MWDev:Owner-Contributions     USD
-2026-01-01 open Equity:MWDev:Owner-Draws             USD
+2025-01-01 open Equity:MWDev:Opening-Balances        USD
+2025-01-01 open Equity:MWDev:Owner-Contributions     USD
+2025-01-01 open Equity:MWDev:Owner-Draws             USD
 
 ;; --- Intercompany (open pairs as needed; pattern below) ---
 ;; 2026-01-01 open Assets:MWDev:DueFrom:<OtherEntity>   USD
 ;; 2026-01-01 open Liabilities:MWDev:DueTo:<OtherEntity> USD
 
 ;; --- Income ---
-2026-01-01 open Income:MWDev:Sales  USD
-2026-01-01 open Income:MWDev:Services  USD
-2026-01-01 open Income:MWDev:Rental  USD
-2026-01-01 open Income:MWDev:Interest  USD
-2026-01-01 open Income:MWDev:Other  USD
-2026-01-01 open Income:MWDev:Uncategorized  USD
+2025-01-01 open Income:MWDev:Sales  USD
+2025-01-01 open Income:MWDev:Services  USD
+2025-01-01 open Income:MWDev:Rental  USD
+2025-01-01 open Income:MWDev:Interest  USD
+2025-01-01 open Income:MWDev:Other  USD
+2025-01-01 open Income:MWDev:Uncategorized  USD
 
 ;; --- Expenses ---
-2026-01-01 open Expenses:MWDev:Advertising-Marketing  USD
-2026-01-01 open Expenses:MWDev:Auto-Vehicle  USD
-2026-01-01 open Expenses:MWDev:Bank-Fees  USD
-2026-01-01 open Expenses:MWDev:Contract-Labor  USD
-2026-01-01 open Expenses:MWDev:Insurance  USD
-2026-01-01 open Expenses:MWDev:Interest  USD
-2026-01-01 open Expenses:MWDev:Legal-Professional  USD
-2026-01-01 open Expenses:MWDev:Licenses-Permits  USD
-2026-01-01 open Expenses:MWDev:Materials-Supplies  USD
-2026-01-01 open Expenses:MWDev:Meals  USD
-2026-01-01 open Expenses:MWDev:Merchant-Fees  USD
-2026-01-01 open Expenses:MWDev:Office-Supplies  USD
-2026-01-01 open Expenses:MWDev:Payroll:Wages  USD
-2026-01-01 open Expenses:MWDev:Payroll:Taxes  USD
-2026-01-01 open Expenses:MWDev:Rent-Lease  USD
-2026-01-01 open Expenses:MWDev:Repairs-Maintenance  USD
-2026-01-01 open Expenses:MWDev:Software-Subscriptions  USD
-2026-01-01 open Expenses:MWDev:Taxes:Property  USD
-2026-01-01 open Expenses:MWDev:Taxes:Other  USD
-2026-01-01 open Expenses:MWDev:Travel  USD
-2026-01-01 open Expenses:MWDev:Utilities  USD
-2026-01-01 open Expenses:MWDev:Uncategorized  USD
+2025-01-01 open Expenses:MWDev:Advertising-Marketing  USD
+2025-01-01 open Expenses:MWDev:Auto-Vehicle  USD
+2025-01-01 open Expenses:MWDev:Bank-Fees  USD
+2025-01-01 open Expenses:MWDev:Contract-Labor  USD
+2025-01-01 open Expenses:MWDev:Insurance  USD
+2025-01-01 open Expenses:MWDev:Interest  USD
+2025-01-01 open Expenses:MWDev:Legal-Professional  USD
+2025-01-01 open Expenses:MWDev:Licenses-Permits  USD
+2025-01-01 open Expenses:MWDev:Materials-Supplies  USD
+2025-01-01 open Expenses:MWDev:Meals  USD
+2025-01-01 open Expenses:MWDev:Merchant-Fees  USD
+2025-01-01 open Expenses:MWDev:Office-Supplies  USD
+2025-01-01 open Expenses:MWDev:Payroll:Wages  USD
+2025-01-01 open Expenses:MWDev:Payroll:Taxes  USD
+2025-01-01 open Expenses:MWDev:Rent-Lease  USD
+2025-01-01 open Expenses:MWDev:Repairs-Maintenance  USD
+2025-01-01 open Expenses:MWDev:Software-Subscriptions  USD
+2025-01-01 open Expenses:MWDev:Taxes:Property  USD
+2025-01-01 open Expenses:MWDev:Taxes:Other  USD
+2025-01-01 open Expenses:MWDev:Travel  USD
+2025-01-01 open Expenses:MWDev:Utilities  USD
+2025-01-01 open Expenses:MWDev:Uncategorized  USD
 
 ;; --- Placeholders (replace with real accounts from the inventory) ---
 ;; 2026-01-01 open Assets:MWDev:Bank:Mercury-Checking-1234  USD

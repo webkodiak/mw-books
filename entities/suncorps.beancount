@@ -6,45 +6,45 @@
 ;; is confirmed (Step 0) - one Beancount account per real-world account.
 
 ;; --- Equity ---
-2026-01-01 open Equity:Suncorps:Opening-Balances        USD
-2026-01-01 open Equity:Suncorps:Owner-Contributions     USD
-2026-01-01 open Equity:Suncorps:Owner-Draws             USD
+2025-01-01 open Equity:Suncorps:Opening-Balances        USD
+2025-01-01 open Equity:Suncorps:Owner-Contributions     USD
+2025-01-01 open Equity:Suncorps:Owner-Draws             USD
 
 ;; --- Intercompany (open pairs as needed; pattern below) ---
 ;; 2026-01-01 open Assets:Suncorps:DueFrom:<OtherEntity>   USD
 ;; 2026-01-01 open Liabilities:Suncorps:DueTo:<OtherEntity> USD
 
 ;; --- Income ---
-2026-01-01 open Income:Suncorps:Sales  USD
-2026-01-01 open Income:Suncorps:Services  USD
-2026-01-01 open Income:Suncorps:Rental  USD
-2026-01-01 open Income:Suncorps:Interest  USD
-2026-01-01 open Income:Suncorps:Other  USD
-2026-01-01 open Income:Suncorps:Uncategorized  USD
+2025-01-01 open Income:Suncorps:Sales  USD
+2025-01-01 open Income:Suncorps:Services  USD
+2025-01-01 open Income:Suncorps:Rental  USD
+2025-01-01 open Income:Suncorps:Interest  USD
+2025-01-01 open Income:Suncorps:Other  USD
+2025-01-01 open Income:Suncorps:Uncategorized  USD
 
 ;; --- Expenses ---
-2026-01-01 open Expenses:Suncorps:Advertising-Marketing  USD
-2026-01-01 open Expenses:Suncorps:Auto-Vehicle  USD
-2026-01-01 open Expenses:Suncorps:Bank-Fees  USD
-2026-01-01 open Expenses:Suncorps:Contract-Labor  USD
-2026-01-01 open Expenses:Suncorps:Insurance  USD
-2026-01-01 open Expenses:Suncorps:Interest  USD
-2026-01-01 open Expenses:Suncorps:Legal-Professional  USD
-2026-01-01 open Expenses:Suncorps:Licenses-Permits  USD
-2026-01-01 open Expenses:Suncorps:Materials-Supplies  USD
-2026-01-01 open Expenses:Suncorps:Meals  USD
-2026-01-01 open Expenses:Suncorps:Merchant-Fees  USD
-2026-01-01 open Expenses:Suncorps:Office-Supplies  USD
-2026-01-01 open Expenses:Suncorps:Payroll:Wages  USD
-2026-01-01 open Expenses:Suncorps:Payroll:Taxes  USD
-2026-01-01 open Expenses:Suncorps:Rent-Lease  USD
-2026-01-01 open Expenses:Suncorps:Repairs-Maintenance  USD
-2026-01-01 open Expenses:Suncorps:Software-Subscriptions  USD
-2026-01-01 open Expenses:Suncorps:Taxes:Property  USD
-2026-01-01 open Expenses:Suncorps:Taxes:Other  USD
-2026-01-01 open Expenses:Suncorps:Travel  USD
-2026-01-01 open Expenses:Suncorps:Utilities  USD
-2026-01-01 open Expenses:Suncorps:Uncategorized  USD
+2025-01-01 open Expenses:Suncorps:Advertising-Marketing  USD
+2025-01-01 open Expenses:Suncorps:Auto-Vehicle  USD
+2025-01-01 open Expenses:Suncorps:Bank-Fees  USD
+2025-01-01 open Expenses:Suncorps:Contract-Labor  USD
+2025-01-01 open Expenses:Suncorps:Insurance  USD
+2025-01-01 open Expenses:Suncorps:Interest  USD
+2025-01-01 open Expenses:Suncorps:Legal-Professional  USD
+2025-01-01 open Expenses:Suncorps:Licenses-Permits  USD
+2025-01-01 open Expenses:Suncorps:Materials-Supplies  USD
+2025-01-01 open Expenses:Suncorps:Meals  USD
+2025-01-01 open Expenses:Suncorps:Merchant-Fees  USD
+2025-01-01 open Expenses:Suncorps:Office-Supplies  USD
+2025-01-01 open Expenses:Suncorps:Payroll:Wages  USD
+2025-01-01 open Expenses:Suncorps:Payroll:Taxes  USD
+2025-01-01 open Expenses:Suncorps:Rent-Lease  USD
+2025-01-01 open Expenses:Suncorps:Repairs-Maintenance  USD
+2025-01-01 open Expenses:Suncorps:Software-Subscriptions  USD
+2025-01-01 open Expenses:Suncorps:Taxes:Property  USD
+2025-01-01 open Expenses:Suncorps:Taxes:Other  USD
+2025-01-01 open Expenses:Suncorps:Travel  USD
+2025-01-01 open Expenses:Suncorps:Utilities  USD
+2025-01-01 open Expenses:Suncorps:Uncategorized  USD
 
 ;; --- Placeholders (replace with real accounts from the inventory) ---
 ;; 2026-01-01 open Assets:Suncorps:Bank:Mercury-Checking-1234  USD
