@@ -98,9 +98,9 @@ MANUAL_LANES = [
     dict(institution="Charles Schwab", account_name="Futures account", last4="104",
          feed_lane="TBD - maybe out of scope v1", status="NEEDS_ANSWER",
          notes="Investment acct - Webster to confirm in/out of scope"),
-    dict(institution="NewRez", account_name="Mortgage", last4="7885",
-         feed_lane="statement-parse", status="NEEDS_ANSWER",
-         notes="Statement addressed to Asela Acosta - whose property?"),
+    # NewRez mortgage ...7885 deliberately EXCLUDED (2026-08-13, Webster):
+    # customer's mortgage (he brokered her refi to Paramount) - never an MW
+    # liability. Only the refi commission touches the books (MWFin income).
     dict(institution="Stripe", account_name="Merchant account",
          feed_lane="Stripe reports", status="NEEDS_ANSWER",
          notes="Which entity receives payouts?"),
