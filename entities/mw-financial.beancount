@@ -1,0 +1,55 @@
+;; MW Financial LLC (MW LOANS)
+;; LLC taxed as S-corp -> 1120-S. Webster 100% (2025 K-1 to Marisel flagged in registry - resolve).
+;; DRAFT chart of accounts (2026-08-11). Rename/prune freely before first import;
+;; if CPA (Amarilis) supplies a chart of accounts, remap these to hers.
+;; Bank/card asset & liability accounts are opened when the account inventory
+;; is confirmed (Step 0) - one Beancount account per real-world account.
+
+;; --- Equity ---
+2026-01-01 open Equity:MWFin:Opening-Balances        USD
+2026-01-01 open Equity:MWFin:Owner-Contributions     USD
+2026-01-01 open Equity:MWFin:Owner-Draws             USD
+
+;; --- Intercompany (open pairs as needed; pattern below) ---
+;; 2026-01-01 open Assets:MWFin:DueFrom:<OtherEntity>   USD
+;; 2026-01-01 open Liabilities:MWFin:DueTo:<OtherEntity> USD
+
+;; --- Income ---
+2026-01-01 open Income:MWFin:Sales  USD
+2026-01-01 open Income:MWFin:Services  USD
+2026-01-01 open Income:MWFin:Rental  USD
+2026-01-01 open Income:MWFin:Interest  USD
+2026-01-01 open Income:MWFin:Other  USD
+2026-01-01 open Income:MWFin:Uncategorized  USD
+
+;; --- Expenses ---
+2026-01-01 open Expenses:MWFin:Advertising-Marketing  USD
+2026-01-01 open Expenses:MWFin:Auto-Vehicle  USD
+2026-01-01 open Expenses:MWFin:Bank-Fees  USD
+2026-01-01 open Expenses:MWFin:Contract-Labor  USD
+2026-01-01 open Expenses:MWFin:Insurance  USD
+2026-01-01 open Expenses:MWFin:Interest  USD
+2026-01-01 open Expenses:MWFin:Legal-Professional  USD
+2026-01-01 open Expenses:MWFin:Licenses-Permits  USD
+2026-01-01 open Expenses:MWFin:Materials-Supplies  USD
+2026-01-01 open Expenses:MWFin:Meals  USD
+2026-01-01 open Expenses:MWFin:Merchant-Fees  USD
+2026-01-01 open Expenses:MWFin:Office-Supplies  USD
+2026-01-01 open Expenses:MWFin:Payroll:Wages  USD
+2026-01-01 open Expenses:MWFin:Payroll:Taxes  USD
+2026-01-01 open Expenses:MWFin:Rent-Lease  USD
+2026-01-01 open Expenses:MWFin:Repairs-Maintenance  USD
+2026-01-01 open Expenses:MWFin:Software-Subscriptions  USD
+2026-01-01 open Expenses:MWFin:Taxes:Property  USD
+2026-01-01 open Expenses:MWFin:Taxes:Other  USD
+2026-01-01 open Expenses:MWFin:Travel  USD
+2026-01-01 open Expenses:MWFin:Utilities  USD
+2026-01-01 open Expenses:MWFin:Uncategorized  USD
+
+;; --- Placeholders (replace with real accounts from the inventory) ---
+;; 2026-01-01 open Assets:MWFin:Bank:Mercury-Checking-1234  USD
+;; 2026-01-01 open Liabilities:MWFin:Card:Amex-5678         USD
+
+;; Opening balances go here once Webster provides balances as of the start date:
+;; 2026-01-01 pad Assets:MWFin:Bank:Mercury-Checking-1234 Equity:MWFin:Opening-Balances
+;; 2026-01-02 balance Assets:MWFin:Bank:Mercury-Checking-1234  0.00 USD

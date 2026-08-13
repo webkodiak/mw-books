@@ -1,0 +1,16 @@
+institution,account_name,last4,type,entity_guess,evidence,simplefin_connects,notes
+Mercury,Business checking (per entity? confirm which entities have their own),,bank,MULTIPLE - confirm,Vault: Mercury is the group bank; per-entity breakdown never recorded,,Native API also available as a feed lane
+Chase,Ink Business Unlimited Visa,2559,credit card,CONFIRM (business - which entity?),Statement emails to web@mw.loans; autopay on; ~$13k balance Aug 2026,,
+Chase,Business Complete Checking (BUS COMPLETE CHK),2320,bank,CONFIRM (business - which entity?),Statement + transfer emails; feeds transfers to BofA 3417,,Already shared to Stripe + Rocket via Chase Connected Banking
+Bank of America,Web BOA,3417,bank,Personal (guess),Chase transfer destination "Web BOA",,
+Charles Schwab,Futures account,104,investment,Personal (guess),Monthly futures statement emails,,Investment accts may stay out of scope for v1 - your call
+NewRez,Mortgage,7885,mortgage,CONFIRM - statement addressed to Asela Acosta,Billing statement emails arrive at web@mw.loans,,Whose property/mortgage is this?
+PayPal,PayPal (account name: Alfred Seed),,payment,CONFIRM,Legal-agreement email to web@mw.loans,,Own transaction API; solved independently of SimpleFIN
+Stripe,Merchant account,,payment processor,CONFIRM (which entity receives payouts?),Chase data-sharing confirmation Jul 2026,,Revenue lane - payouts land in a bank acct
+Amazon store card,,,credit card,,Kickoff doc known-problem list,,Issuer Synchrony - test explicitly in SimpleFIN
+Costco card,,,credit card,,Kickoff doc known-problem list,,Issuer Citi - test explicitly
+Home Depot card,,,credit card,,Kickoff doc known-problem list,,Issuer Citi Retail Services - test explicitly
+CareCredit,,,credit card,,Kickoff doc known-problem list,,Issuer Synchrony - test explicitly
+,,,,,,,"~20 credit cards total per kickoff doc - add remaining rows: institution, last4, entity"
+,,,,,,,1-2 mortgage accounts per kickoff doc - add rows
+,,,,,,,Several bank accounts per kickoff doc - add rows

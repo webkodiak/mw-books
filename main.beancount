@@ -1,0 +1,21 @@
+;; MW Books - consolidated ledger of record for the MW Group + personal
+;; Backbone: Beancount v3 (plain text, git) - UI: Fava
+;; Run:  fava main.beancount   (opens at http://localhost:5000)
+;;
+;; Structure: one file per filing entity under entities/, all accounts namespaced
+;; by entity code (Assets:MWFin:..., Expenses:MWRealty:...). Consolidated view is
+;; this file; per-entity statements via Fava's account filter, e.g. filter
+;; ^(Assets|Liabilities|Income|Expenses|Equity):MWFin
+
+option "title" "MW Group - Books"
+option "operating_currency" "USD"
+
+include "entities/mw-financial.beancount"
+include "entities/mw-realty.beancount"
+include "entities/suncorps.beancount"
+include "entities/mw-development.beancount"
+include "entities/kml.beancount"
+include "entities/property-mgmt.beancount"
+include "entities/personal.beancount"
+
+;; Transactions land in per-entity files (or monthly files later) - never here.

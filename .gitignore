@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.fava-cache/
+
+# Never commit credentials or raw feed pulls
+simplefin_access.txt
+SIMPLEFIN.txt
+simplefin_survey.json
+*.secret

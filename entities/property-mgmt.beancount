@@ -1,0 +1,55 @@
+;; Property Management Co (Marine)
+;; Marine 100%. EIN/treatment unknown - stub until confirmed in scope.
+;; DRAFT chart of accounts (2026-08-11). Rename/prune freely before first import;
+;; if CPA (Amarilis) supplies a chart of accounts, remap these to hers.
+;; Bank/card asset & liability accounts are opened when the account inventory
+;; is confirmed (Step 0) - one Beancount account per real-world account.
+
+;; --- Equity ---
+2026-01-01 open Equity:PropMgmt:Opening-Balances        USD
+2026-01-01 open Equity:PropMgmt:Owner-Contributions     USD
+2026-01-01 open Equity:PropMgmt:Owner-Draws             USD
+
+;; --- Intercompany (open pairs as needed; pattern below) ---
+;; 2026-01-01 open Assets:PropMgmt:DueFrom:<OtherEntity>   USD
+;; 2026-01-01 open Liabilities:PropMgmt:DueTo:<OtherEntity> USD
+
+;; --- Income ---
+2026-01-01 open Income:PropMgmt:Sales  USD
+2026-01-01 open Income:PropMgmt:Services  USD
+2026-01-01 open Income:PropMgmt:Rental  USD
+2026-01-01 open Income:PropMgmt:Interest  USD
+2026-01-01 open Income:PropMgmt:Other  USD
+2026-01-01 open Income:PropMgmt:Uncategorized  USD
+
+;; --- Expenses ---
+2026-01-01 open Expenses:PropMgmt:Advertising-Marketing  USD
+2026-01-01 open Expenses:PropMgmt:Auto-Vehicle  USD
+2026-01-01 open Expenses:PropMgmt:Bank-Fees  USD
+2026-01-01 open Expenses:PropMgmt:Contract-Labor  USD
+2026-01-01 open Expenses:PropMgmt:Insurance  USD
+2026-01-01 open Expenses:PropMgmt:Interest  USD
+2026-01-01 open Expenses:PropMgmt:Legal-Professional  USD
+2026-01-01 open Expenses:PropMgmt:Licenses-Permits  USD
+2026-01-01 open Expenses:PropMgmt:Materials-Supplies  USD
+2026-01-01 open Expenses:PropMgmt:Meals  USD
+2026-01-01 open Expenses:PropMgmt:Merchant-Fees  USD
+2026-01-01 open Expenses:PropMgmt:Office-Supplies  USD
+2026-01-01 open Expenses:PropMgmt:Payroll:Wages  USD
+2026-01-01 open Expenses:PropMgmt:Payroll:Taxes  USD
+2026-01-01 open Expenses:PropMgmt:Rent-Lease  USD
+2026-01-01 open Expenses:PropMgmt:Repairs-Maintenance  USD
+2026-01-01 open Expenses:PropMgmt:Software-Subscriptions  USD
+2026-01-01 open Expenses:PropMgmt:Taxes:Property  USD
+2026-01-01 open Expenses:PropMgmt:Taxes:Other  USD
+2026-01-01 open Expenses:PropMgmt:Travel  USD
+2026-01-01 open Expenses:PropMgmt:Utilities  USD
+2026-01-01 open Expenses:PropMgmt:Uncategorized  USD
+
+;; --- Placeholders (replace with real accounts from the inventory) ---
+;; 2026-01-01 open Assets:PropMgmt:Bank:Mercury-Checking-1234  USD
+;; 2026-01-01 open Liabilities:PropMgmt:Card:Amex-5678         USD
+
+;; Opening balances go here once Webster provides balances as of the start date:
+;; 2026-01-01 pad Assets:PropMgmt:Bank:Mercury-Checking-1234 Equity:PropMgmt:Opening-Balances
+;; 2026-01-02 balance Assets:PropMgmt:Bank:Mercury-Checking-1234  0.00 USD

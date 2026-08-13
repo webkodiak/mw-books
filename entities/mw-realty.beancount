@@ -1,0 +1,55 @@
+;; MW Realty Group Corp
+;; S-corp -> 1120-S. Marisel 100%.
+;; DRAFT chart of accounts (2026-08-11). Rename/prune freely before first import;
+;; if CPA (Amarilis) supplies a chart of accounts, remap these to hers.
+;; Bank/card asset & liability accounts are opened when the account inventory
+;; is confirmed (Step 0) - one Beancount account per real-world account.
+
+;; --- Equity ---
+2026-01-01 open Equity:MWRealty:Opening-Balances        USD
+2026-01-01 open Equity:MWRealty:Owner-Contributions     USD
+2026-01-01 open Equity:MWRealty:Owner-Draws             USD
+
+;; --- Intercompany (open pairs as needed; pattern below) ---
+;; 2026-01-01 open Assets:MWRealty:DueFrom:<OtherEntity>   USD
+;; 2026-01-01 open Liabilities:MWRealty:DueTo:<OtherEntity> USD
+
+;; --- Income ---
+2026-01-01 open Income:MWRealty:Sales  USD
+2026-01-01 open Income:MWRealty:Services  USD
+2026-01-01 open Income:MWRealty:Rental  USD
+2026-01-01 open Income:MWRealty:Interest  USD
+2026-01-01 open Income:MWRealty:Other  USD
+2026-01-01 open Income:MWRealty:Uncategorized  USD
+
+;; --- Expenses ---
+2026-01-01 open Expenses:MWRealty:Advertising-Marketing  USD
+2026-01-01 open Expenses:MWRealty:Auto-Vehicle  USD
+2026-01-01 open Expenses:MWRealty:Bank-Fees  USD
+2026-01-01 open Expenses:MWRealty:Contract-Labor  USD
+2026-01-01 open Expenses:MWRealty:Insurance  USD
+2026-01-01 open Expenses:MWRealty:Interest  USD
+2026-01-01 open Expenses:MWRealty:Legal-Professional  USD
+2026-01-01 open Expenses:MWRealty:Licenses-Permits  USD
+2026-01-01 open Expenses:MWRealty:Materials-Supplies  USD
+2026-01-01 open Expenses:MWRealty:Meals  USD
+2026-01-01 open Expenses:MWRealty:Merchant-Fees  USD
+2026-01-01 open Expenses:MWRealty:Office-Supplies  USD
+2026-01-01 open Expenses:MWRealty:Payroll:Wages  USD
+2026-01-01 open Expenses:MWRealty:Payroll:Taxes  USD
+2026-01-01 open Expenses:MWRealty:Rent-Lease  USD
+2026-01-01 open Expenses:MWRealty:Repairs-Maintenance  USD
+2026-01-01 open Expenses:MWRealty:Software-Subscriptions  USD
+2026-01-01 open Expenses:MWRealty:Taxes:Property  USD
+2026-01-01 open Expenses:MWRealty:Taxes:Other  USD
+2026-01-01 open Expenses:MWRealty:Travel  USD
+2026-01-01 open Expenses:MWRealty:Utilities  USD
+2026-01-01 open Expenses:MWRealty:Uncategorized  USD
+
+;; --- Placeholders (replace with real accounts from the inventory) ---
+;; 2026-01-01 open Assets:MWRealty:Bank:Mercury-Checking-1234  USD
+;; 2026-01-01 open Liabilities:MWRealty:Card:Amex-5678         USD
+
+;; Opening balances go here once Webster provides balances as of the start date:
+;; 2026-01-01 pad Assets:MWRealty:Bank:Mercury-Checking-1234 Equity:MWRealty:Opening-Balances
+;; 2026-01-02 balance Assets:MWRealty:Bank:Mercury-Checking-1234  0.00 USD

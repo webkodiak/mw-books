@@ -1,0 +1,54 @@
+;; Webster - Personal
+;; Personal books. Business spend on personal cards gets reclassified via due-to/due-from, not expensed here.
+;; DRAFT chart of accounts (2026-08-11). Rename/prune freely before first import;
+;; if CPA (Amarilis) supplies a chart of accounts, remap these to hers.
+;; Bank/card asset & liability accounts are opened when the account inventory
+;; is confirmed (Step 0) - one Beancount account per real-world account.
+
+;; --- Equity ---
+2026-01-01 open Equity:Personal:Opening-Balances        USD
+2026-01-01 open Equity:Personal:Owner-Contributions     USD
+2026-01-01 open Equity:Personal:Owner-Draws             USD
+
+;; --- Intercompany (open pairs as needed; pattern below) ---
+;; 2026-01-01 open Assets:Personal:DueFrom:<OtherEntity>   USD
+;; 2026-01-01 open Liabilities:Personal:DueTo:<OtherEntity> USD
+
+;; --- Income ---
+2026-01-01 open Income:Personal:Salary  USD
+2026-01-01 open Income:Personal:Distributions  USD
+2026-01-01 open Income:Personal:Interest  USD
+2026-01-01 open Income:Personal:Rental  USD
+2026-01-01 open Income:Personal:Other  USD
+2026-01-01 open Income:Personal:Uncategorized  USD
+
+;; --- Expenses ---
+2026-01-01 open Expenses:Personal:Housing:Mortgage-Interest  USD
+2026-01-01 open Expenses:Personal:Housing:HOA  USD
+2026-01-01 open Expenses:Personal:Housing:Utilities  USD
+2026-01-01 open Expenses:Personal:Groceries  USD
+2026-01-01 open Expenses:Personal:Dining  USD
+2026-01-01 open Expenses:Personal:Auto:Fuel  USD
+2026-01-01 open Expenses:Personal:Auto:Service  USD
+2026-01-01 open Expenses:Personal:Auto:Insurance  USD
+2026-01-01 open Expenses:Personal:Health:Medical  USD
+2026-01-01 open Expenses:Personal:Health:Insurance  USD
+2026-01-01 open Expenses:Personal:Insurance:Other  USD
+2026-01-01 open Expenses:Personal:Shopping  USD
+2026-01-01 open Expenses:Personal:Subscriptions  USD
+2026-01-01 open Expenses:Personal:Travel  USD
+2026-01-01 open Expenses:Personal:Education  USD
+2026-01-01 open Expenses:Personal:Gifts-Donations  USD
+2026-01-01 open Expenses:Personal:Bank-Fees  USD
+2026-01-01 open Expenses:Personal:Interest  USD
+2026-01-01 open Expenses:Personal:Taxes  USD
+2026-01-01 open Expenses:Personal:Misc  USD
+2026-01-01 open Expenses:Personal:Uncategorized  USD
+
+;; --- Placeholders (replace with real accounts from the inventory) ---
+;; 2026-01-01 open Assets:Personal:Bank:Mercury-Checking-1234  USD
+;; 2026-01-01 open Liabilities:Personal:Card:Amex-5678         USD
+
+;; Opening balances go here once Webster provides balances as of the start date:
+;; 2026-01-01 pad Assets:Personal:Bank:Mercury-Checking-1234 Equity:Personal:Opening-Balances
+;; 2026-01-02 balance Assets:Personal:Bank:Mercury-Checking-1234  0.00 USD

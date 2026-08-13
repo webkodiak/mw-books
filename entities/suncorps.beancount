@@ -1,0 +1,55 @@
+;; Suncorps Construction, Inc.
+;; C-corp -> 1120. Marisel 51 / Webster 49. First return was due 04/15/2026.
+;; DRAFT chart of accounts (2026-08-11). Rename/prune freely before first import;
+;; if CPA (Amarilis) supplies a chart of accounts, remap these to hers.
+;; Bank/card asset & liability accounts are opened when the account inventory
+;; is confirmed (Step 0) - one Beancount account per real-world account.
+
+;; --- Equity ---
+2026-01-01 open Equity:Suncorps:Opening-Balances        USD
+2026-01-01 open Equity:Suncorps:Owner-Contributions     USD
+2026-01-01 open Equity:Suncorps:Owner-Draws             USD
+
+;; --- Intercompany (open pairs as needed; pattern below) ---
+;; 2026-01-01 open Assets:Suncorps:DueFrom:<OtherEntity>   USD
+;; 2026-01-01 open Liabilities:Suncorps:DueTo:<OtherEntity> USD
+
+;; --- Income ---
+2026-01-01 open Income:Suncorps:Sales  USD
+2026-01-01 open Income:Suncorps:Services  USD
+2026-01-01 open Income:Suncorps:Rental  USD
+2026-01-01 open Income:Suncorps:Interest  USD
+2026-01-01 open Income:Suncorps:Other  USD
+2026-01-01 open Income:Suncorps:Uncategorized  USD
+
+;; --- Expenses ---
+2026-01-01 open Expenses:Suncorps:Advertising-Marketing  USD
+2026-01-01 open Expenses:Suncorps:Auto-Vehicle  USD
+2026-01-01 open Expenses:Suncorps:Bank-Fees  USD
+2026-01-01 open Expenses:Suncorps:Contract-Labor  USD
+2026-01-01 open Expenses:Suncorps:Insurance  USD
+2026-01-01 open Expenses:Suncorps:Interest  USD
+2026-01-01 open Expenses:Suncorps:Legal-Professional  USD
+2026-01-01 open Expenses:Suncorps:Licenses-Permits  USD
+2026-01-01 open Expenses:Suncorps:Materials-Supplies  USD
+2026-01-01 open Expenses:Suncorps:Meals  USD
+2026-01-01 open Expenses:Suncorps:Merchant-Fees  USD
+2026-01-01 open Expenses:Suncorps:Office-Supplies  USD
+2026-01-01 open Expenses:Suncorps:Payroll:Wages  USD
+2026-01-01 open Expenses:Suncorps:Payroll:Taxes  USD
+2026-01-01 open Expenses:Suncorps:Rent-Lease  USD
+2026-01-01 open Expenses:Suncorps:Repairs-Maintenance  USD
+2026-01-01 open Expenses:Suncorps:Software-Subscriptions  USD
+2026-01-01 open Expenses:Suncorps:Taxes:Property  USD
+2026-01-01 open Expenses:Suncorps:Taxes:Other  USD
+2026-01-01 open Expenses:Suncorps:Travel  USD
+2026-01-01 open Expenses:Suncorps:Utilities  USD
+2026-01-01 open Expenses:Suncorps:Uncategorized  USD
+
+;; --- Placeholders (replace with real accounts from the inventory) ---
+;; 2026-01-01 open Assets:Suncorps:Bank:Mercury-Checking-1234  USD
+;; 2026-01-01 open Liabilities:Suncorps:Card:Amex-5678         USD
+
+;; Opening balances go here once Webster provides balances as of the start date:
+;; 2026-01-01 pad Assets:Suncorps:Bank:Mercury-Checking-1234 Equity:Suncorps:Opening-Balances
+;; 2026-01-02 balance Assets:Suncorps:Bank:Mercury-Checking-1234  0.00 USD

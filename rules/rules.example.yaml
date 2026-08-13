@@ -1,0 +1,16 @@
+# Step 4 — classification rules (STUB until Step 0 completes)
+# merchant pattern → entity + account. Anything not matched with confidence
+# lands in the review queue, never auto-booked.
+#
+# Reminder: the ACCOUNT the charge hit decides the entity by default; these
+# rules refine the expense/income account and catch reassignments (e.g. business
+# spend on a personal card → due-to/due-from, not an expense here).
+
+- match: "HOME DEPOT"
+  account_hint: "Repairs-Maintenance"   # entity comes from the card, not the brand
+  confidence: review                     # judgment call: which property/entity?
+
+- match: "GITHUB|CLOUDFLARE|GOOGLE WORKSPACE"
+  entity: MWFin
+  account: "Expenses:MWFin:Software-Subscriptions"
+  confidence: auto
