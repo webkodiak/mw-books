@@ -149,10 +149,21 @@ def main(survey_path, answers_path, out_path):
                 (name_digits[-1] if name_digits else "")
         answer = match.get("YOUR_ANSWER_whose_is_it", "") if match else ""
         entity, owner = entity_of(answer)
-        status = "OK" if match and entity and not entity.startswith("CHECK") else \
-                 ("CHECK_ANSWER" if match else "NEW_NEEDS_ANSWER")
+        duplicate = match is not None and id(match) in used
+        status = ("DUPLICATE_FEED" if duplicate else
+                  "OK" if match and entity and not entity.startswith("CHECK") else
+                  ("CHECK_ANSWER" if match else "NEW_NEEDS_ANSWER"))
         if match:
             used.add(id(match))
+        if duplicate:
+            out.append(dict(status=status, entity=entity, owner=owner,
+                institution=s.get("institution", ""), account_name=s.get("account_name", ""),
+                last4=last4, account_id=s.get("account_id", ""), currency=s.get("currency", ""),
+                balance=s.get("balance", ""), balance_date=s.get("balance_date", ""),
+                connects="yes", needs_reauth="", feed_lane="simplefin",
+                beancount_account="",
+                notes="SAME real account appears twice in SimpleFIN - delete the duplicate connection at the bridge; ingest ONLY the non-duplicate ID"))
+            continue
         out.append(dict(
             status=status, entity=entity, owner=owner,
             institution=s.get("institution", ""),

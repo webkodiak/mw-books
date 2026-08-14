@@ -58,3 +58,13 @@
 ;; Opening balances go here once Webster provides balances as of the start date:
 ;; 2026-01-01 pad Assets:MWFin:Bank:Mercury-Checking-1234 Equity:MWFin:Opening-Balances
 ;; 2026-01-02 balance Assets:MWFin:Bank:Mercury-Checking-1234  0.00 USD
+
+;; --- Real accounts (generated from inventory/account-inventory.csv, 2026-08-13) ---
+2025-01-01 open Assets:MWFin:Bank:Chase-2320  USD
+  institution: "Chase Bank"
+  last4: "2320"
+  simplefin: "ACT-ae4587d0-dcaa-4f47-b8fb-baabca888cb4"
+2025-01-01 open Liabilities:MWFin:Card:Chase-2559  USD
+  institution: "Chase Bank"
+  last4: "2559"
+  simplefin: "ACT-ae237413-900d-4a63-b3ce-e95c060e146e"

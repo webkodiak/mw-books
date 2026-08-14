@@ -58,3 +58,9 @@
 ;; Opening balances go here once Webster provides balances as of the start date:
 ;; 2026-01-01 pad Assets:MWRealty:Bank:Mercury-Checking-1234 Equity:MWRealty:Opening-Balances
 ;; 2026-01-02 balance Assets:MWRealty:Bank:Mercury-Checking-1234  0.00 USD
+
+;; --- Real accounts (generated from inventory/account-inventory.csv, 2026-08-13) ---
+2025-01-01 open Assets:MWRealty:Bank:WF-9114  USD
+  institution: "Wells Fargo"
+  last4: "9114"
+  simplefin: "ACT-bb744577-1b33-4f3e-afe0-ff5a40e3d8ba"

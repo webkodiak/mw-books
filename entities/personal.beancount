@@ -64,3 +64,137 @@
 ;; Opening balances go here once Webster provides balances as of the start date:
 ;; 2026-01-01 pad Assets:Personal:Bank:Mercury-Checking-1234 Equity:Personal:Opening-Balances
 ;; 2026-01-02 balance Assets:Personal:Bank:Mercury-Checking-1234  0.00 USD
+
+;; --- Real accounts (generated from inventory/account-inventory.csv, 2026-08-13) ---
+2025-01-01 open Assets:Personal:Bank:BofA-3417  USD
+  owner: "webster"
+  institution: "Bank of America"
+  last4: "3417"
+  simplefin: "ACT-a64f3781-0be4-4621-8cdc-eca23f6d8c24"
+2025-01-01 open Assets:Personal:Bank:PayPal  USD
+  owner: "webster"
+  institution: "PayPal"
+  feed_lane: "statement-parse"
+2025-01-01 open Assets:Personal:Bank:WF-2196  USD
+  owner: "mary"
+  institution: "Wells Fargo"
+  last4: "2196"
+  simplefin: "ACT-321dca1a-0f53-4fd0-a95f-ca1e2006ea36"
+2025-01-01 open Assets:Personal:Bank:WF-2443  USD
+  owner: "mary"
+  institution: "Wells Fargo"
+  last4: "2443"
+  simplefin: "ACT-65e01920-4963-4d55-971b-c67614f87f70"
+2025-01-01 open Liabilities:Personal:Card:AmazonStore  USD
+  owner: "webster"
+  institution: "Amazon Store Card"
+  feed_lane: "statement-parse"
+2025-01-01 open Liabilities:Personal:Card:Amex-Hilton-1000  USD
+  owner: "webster"
+  institution: "American Express"
+  last4: "1000"
+  simplefin: "ACT-b2538b01-595a-4bd6-b984-2acad7da41cf"
+2025-01-01 open Liabilities:Personal:Card:Amex-Platinum-1008  USD
+  owner: "webster"
+  institution: "American Express"
+  last4: "1008"
+  simplefin: "ACT-27228184-a16e-401b-bacd-d06545e14faf"
+2025-01-01 open Liabilities:Personal:Card:AppleCard  USD
+  owner: "webster"
+  institution: "Apple Card (Updated Monthly)"
+  simplefin: "ACT-59e70ca4-cf6e-4739-8155-db0252aaf720"
+2025-01-01 open Liabilities:Personal:Card:BestBuy-1870  USD
+  owner: "webster"
+  institution: "Best Buy Credit Card by Citibank"
+  last4: "1870"
+  simplefin: "ACT-debdd3f6-3a75-4cf7-8600-45d76fc75edd"
+2025-01-01 open Liabilities:Personal:Card:BofA-CCR-6918  USD
+  owner: "webster"
+  institution: "Bank of America"
+  last4: "6918"
+  simplefin: "ACT-cdbfefd3-71a9-49cc-8cd2-97467e9d93f0"
+2025-01-01 open Liabilities:Personal:Card:Caesars-0289  USD
+  owner: "webster"
+  institution: "Caesars Rewards Visa Credit Card"
+  last4: "0289"
+  simplefin: "ACT-fee91081-4ba0-4294-9a03-63dd479b1a92"
+2025-01-01 open Liabilities:Personal:Card:CapOne-1456  USD
+  owner: "webster"
+  institution: "Capital One"
+  last4: "1456"
+  simplefin: "ACT-127db452-a001-4e74-b282-a56536e054fe"
+2025-01-01 open Liabilities:Personal:Card:CapOne-9578  USD
+  owner: "webster"
+  institution: "Capital One"
+  last4: "9578"
+  simplefin: "ACT-f289526e-442f-4cf7-ad05-2c27303f5993"
+2025-01-01 open Liabilities:Personal:Card:CapOne-9993  USD
+  owner: "webster"
+  institution: "Capital One"
+  last4: "9993"
+  simplefin: "ACT-a91c5ec1-0e02-476c-8ec9-d2647c08144f"
+2025-01-01 open Liabilities:Personal:Card:CareCredit-9175  USD
+  owner: "webster"
+  institution: "CareCredit"
+  last4: "9175"
+  simplefin: "ACT-1789c4b1-a1b6-403e-aee6-9062deec4398"
+2025-01-01 open Liabilities:Personal:Card:CareCredit-Prime-1042  USD
+  owner: "webster"
+  institution: "CareCredit"
+  last4: "1042"
+  simplefin: "ACT-9a413bbd-727c-4a85-b904-c8268e6af1e7"
+2025-01-01 open Liabilities:Personal:Card:Chase-Sapphire-1631  USD
+  owner: "webster"
+  institution: "Chase Bank"
+  last4: "1631"
+  simplefin: "ACT-7d598ef1-9cf7-4a39-9133-c965a7de248a"
+2025-01-01 open Liabilities:Personal:Card:Costco-2843  USD
+  owner: "webster"
+  institution: "Costco Credit Card"
+  last4: "2843"
+  simplefin: "ACT-534a4d47-b941-460b-a8e2-46c2129bb89c"
+2025-01-01 open Liabilities:Personal:Card:CreditOne-5992  USD
+  owner: "webster"
+  institution: "Credit One Bank"
+  last4: "5992"
+  simplefin: "ACT-e446d1e3-de29-4215-a8cf-b1bcc3922c2b"
+2025-01-01 open Liabilities:Personal:Card:CreditOne-7798  USD
+  owner: "webster"
+  institution: "Credit One Bank"
+  last4: "7798"
+  simplefin: "ACT-4c6abf0e-9831-41de-9e79-5d2d903ca22c"
+2025-01-01 open Liabilities:Personal:Card:CreditOne-9505  USD
+  owner: "webster"
+  institution: "Credit One Bank"
+  last4: "9505"
+  simplefin: "ACT-7c0540d6-c040-498b-8f4c-21355a5434f2"
+2025-01-01 open Liabilities:Personal:Card:HomeDepot-9592  USD
+  owner: "webster"
+  institution: "Home Depot Credit Card by Citibank"
+  last4: "9592"
+  simplefin: "ACT-be8d673d-f258-4b48-9387-1ea271fbdbfc"
+2025-01-01 open Liabilities:Personal:Card:Target-8187  USD
+  owner: "webster"
+  institution: "Target Credit Card"
+  last4: "8187"
+  simplefin: "ACT-390ef347-b199-4fe2-83b0-26c6f40be51a"
+2025-01-01 open Liabilities:Personal:Card:WF-Platinum-3463  USD
+  owner: "mary"
+  institution: "Wells Fargo"
+  last4: "3463"
+  simplefin: "ACT-f1454bd0-9a0e-490f-8525-f441ab6d86df"
+2025-01-01 open Liabilities:Personal:Card:WF-Reflect-9832  USD
+  owner: "mary"
+  institution: "Wells Fargo"
+  last4: "9832"
+  simplefin: "ACT-d40eb6d0-00a5-49c1-81c5-c492521040a4"
+2025-01-01 open Liabilities:Personal:Card:Wayfair-7948  USD
+  owner: "webster"
+  institution: "Wayfair Credit Card (Citi)"
+  last4: "7948"
+  simplefin: "ACT-2550c5b8-9615-49c5-bf9c-119516351f8d"
+2025-01-01 open Liabilities:Personal:Mortgage:MT-8801  USD
+  owner: "webster"
+  institution: "M&T Bank"
+  last4: "8801"
+  simplefin: "ACT-15a453b5-6db5-4622-9699-6b7f96a1f3c6"
