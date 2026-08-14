@@ -1,10 +1,25 @@
-# MW Books — living handoff (updated 2026-08-13)
+# MW Books — living handoff (updated 2026-08-14)
 
 Start any new chat by reading this file. It supersedes older kickoff notes.
 
+## Remote & phone access (added 2026-08-14)
+- GitHub remote: **`github.com/webkodiak/mw-books`** — PRIVATE (holds account
+  numbers, balances, EINs, tax figures; must never be public). `origin` on the
+  PC points here; `main` tracks `origin/main`.
+- Credentials are NEVER committed: `.gitignore` excludes `simplefin_access.txt`
+  and all raw feed pulls. The push token was one-off (fine-grained, Contents R/W,
+  scoped to this repo) and revoked after use — never stored in `.git/config`.
+- Phone workflow: GitHub mobile app (sign in as webkodiak) to browse/read the
+  ledger, review diffs, make small text edits. Browser editor: github.dev
+  (open the repo, press `.`). Running Fava/the MW-UI from a phone would need a
+  server (e.g. Codespaces) — future option, not set up yet.
+- Still PC-only: SimpleFIN feed pulls (network + credentials live on Webster's
+  PC). Phone is for review/reading/editing text, not pulling new bank data.
+
 ## Where the build stands
 - Repo `C:\Users\webko\mw-books` IS the system of record, git-initialized, all
-  work committed. `bean-check main.beancount` passes.
+  work committed and pushed to GitHub (see Remote & phone access above).
+  `bean-check main.beancount` passes.
 - Books start date: **2025-01-01** (Webster's call). Opening balances: Claude
   derives from feed history, Webster confirms every number (nothing locked yet).
 - Inventory: `inventory/account-inventory.csv` — 36 rows, final except 5 flags
