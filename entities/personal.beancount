@@ -22,6 +22,18 @@
 2025-01-01 open Income:Personal:Other  USD
 2025-01-01 open Income:Personal:Uncategorized  USD
 
+;; --- Sole proprietorships inside the joint 1040 (confirmed 2026-08-13) ---
+;; Marisel - REAL ESTATE AGENT Schedule C, SEPARATE from MW Realty Group Corp.
+;; Subtree mirrors her Schedule C so the package falls out at tax time.
+2025-01-01 open Income:Personal:Marisel-RE:Commissions  USD
+2025-01-01 open Expenses:Personal:Marisel-RE:MLS  USD
+2025-01-01 open Expenses:Personal:Marisel-RE:Auto  USD
+2025-01-01 open Expenses:Personal:Marisel-RE:Uniforms  USD
+2025-01-01 open Expenses:Personal:Marisel-RE:Misc  USD
+;; Webster - PROJECT MANAGER limited-time gig (2025 Schedule C; ended, not an LLC).
+2025-01-01 open Income:Personal:Webster-Gig  USD
+2025-01-01 open Expenses:Personal:Webster-Gig  USD
+
 ;; --- Expenses ---
 2025-01-01 open Expenses:Personal:Housing:Mortgage-Interest  USD
 2025-01-01 open Expenses:Personal:Housing:HOA  USD

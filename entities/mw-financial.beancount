@@ -1,8 +1,9 @@
 ;; MW Financial LLC (MW LOANS)
 ;; LLC taxed as S-corp -> 1120-S. Webster 100% (2025 K-1 to Marisel flagged in registry - resolve).
 ;; CONFIRMED from joint 1040 (2026-08-13): EIN 99-0597058, S-corp on Schedule E;
-;; 2025 nonpassive LOSS -22,168. Ownership % still unconfirmed - MWFin 1120-S
-;; not yet provided; ASK (registry flagged a 2025 K-1 to Marisel).
+;; 2025 nonpassive LOSS -22,168. Owner: WEBSTER (Alfred) SEED 100% - confirmed
+;; by Webster 2026-08-13; the registry's "K-1 to Marisel" flag was a name
+;; mix-up, resolved. (MWFin 1120-S still worth uploading when handy.)
 ;; Banks: Chase BUS COMPLETE CHK ...2320 (EFTPS doc) + Chase Ink card ...2559.
 ;; DRAFT chart of accounts (2026-08-11). Rename/prune freely before first import;
 ;; if CPA (Amarilis) supplies a chart of accounts, remap these to hers.
