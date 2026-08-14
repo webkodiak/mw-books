@@ -67,12 +67,18 @@
 2025-01-01 pad Liabilities:Personal:Card:CreditOne-9505 Equity:Personal:Opening-Balances
 2026-08-14 balance Liabilities:Personal:Card:CreditOne-9505  0.00 USD
 
+2025-01-01 pad Liabilities:Personal:Card:Discover-6368 Equity:Personal:Opening-Balances
+2026-08-13 balance Liabilities:Personal:Card:Discover-6368  -8758.99 USD
+
 2026-08-13 balance Liabilities:Personal:Card:HomeDepot-9592  0.00 USD
 
 2026-08-14 balance Liabilities:Personal:Card:Target-8187  0.00 USD
 
 2025-01-01 pad Liabilities:Personal:Card:WF-Platinum-3463 Equity:Personal:Opening-Balances
 2026-08-14 balance Liabilities:Personal:Card:WF-Platinum-3463  -3998.45 USD
+
+2025-01-01 pad Liabilities:Personal:Card:WF-Platinum-4965 Equity:Personal:Opening-Balances
+2026-08-13 balance Liabilities:Personal:Card:WF-Platinum-4965  -2.99 USD
 
 2025-01-01 pad Liabilities:Personal:Card:WF-Reflect-9832 Equity:Personal:Opening-Balances
 2026-08-14 balance Liabilities:Personal:Card:WF-Reflect-9832  -2225.00 USD

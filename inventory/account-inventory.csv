@@ -29,8 +29,8 @@ OK,Personal,webster,Wayfair Credit Card (Citi),Wayfair Mastercard-7948 (7948),79
 OK,Personal,webster,Costco Credit Card,Costco Anywhere Visa® Card by Citi-2843 (2843),2843,ACT-534a4d47-b941-460b-a8e2-46c2129bb89c,USD,-6110.01,1786609402,yes,,simplefin,Liabilities:Personal:Card:Costco-2843,
 OK,Personal,webster,Apple Card (Updated Monthly),Webster,,ACT-59e70ca4-cf6e-4739-8155-db0252aaf720,USD,-15.97,1786635813,yes,,simplefin,Liabilities:Personal:Card:AppleCard,
 DUPLICATE_FEED,Personal,mary,Wells Fargo,EVERYDAY CHECKING ...2443 (2443),2443,ACT-3bd1adfa-76a6-4820-9a80-627888a7f1af,USD,209.10,1786541298,yes,,simplefin,,SAME real account appears twice in SimpleFIN - delete the duplicate connection at the bridge; ingest ONLY the non-duplicate ID
-NEW_NEEDS_ANSWER,,,Wells Fargo,PLATINUM CARD ...4965 (4965),4965,ACT-3b08acc7-e262-4086-98ac-81d564a8de3c,USD,-2.99,1786541298,yes,,simplefin,,NEW since Webster's sheet - whose is it?
-NEW_NEEDS_ANSWER,,,Discover Credit Card,Alfred (6368),6368,ACT-7040f1d7-4524-4f4a-b494-6a52dccd037c,USD,-8758.99,1786541425,yes,,simplefin,,NEW since Webster's sheet - whose is it?
+OK,Personal,webster,Wells Fargo,PLATINUM CARD ...4965 (4965),4965,ACT-3b08acc7-e262-4086-98ac-81d564a8de3c,USD,-2.99,1786541298,yes,,simplefin,Liabilities:Personal:Card:WF-Platinum-4965,Webster's - confirmed 2026-08-14
+OK,Personal,webster,Discover Credit Card,Alfred (6368),6368,ACT-7040f1d7-4524-4f4a-b494-6a52dccd037c,USD,-8758.99,1786541425,yes,,simplefin,Liabilities:Personal:Card:Discover-6368,Webster's - confirmed 2026-08-14
 MANUAL_LANE,Personal,webster,Amazon Store Card,,,,USD,,,no,,statement-parse,Liabilities:Personal:Card:AmazonStore,not connected - statement-parse instead
 MANUAL_LANE,Personal,webster,PayPal,,,,USD,,,no,,statement-parse,Assets:Personal:Bank:PayPal,not connected - use PayPal API separately
 NEEDS_ANSWER,,,Charles Schwab,Futures account,104,,USD,,,no,,TBD - maybe out of scope v1,,Investment acct - Webster to confirm in/out of scope

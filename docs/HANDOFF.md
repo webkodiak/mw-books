@@ -46,13 +46,17 @@ Start any new chat by reading this file. It supersedes older kickoff notes.
   `bean-check` clean. Review queue now ~1,980. Anchors: CapOne-9993 gained
   its pad; Amex-Hilton-1000's pad removed (history now complete from account
   opening — pad was unused). Caveats stand: nothing for 2025 (statements
-  still needed there), business accounts not covered, and 72 rows for the
-  two flag cards remain UNINGESTED in the backup pending Webster's answer
-  (Discover 6368: 58 txns + WF Platinum 4965: 14 = open flags 1–2 — once
-  answered, open the accounts in the inventory and re-run the tool; it will
-  pick up exactly those 72). Evidence for flag 2: Discover 6368 carries
-  Anthropic, Real Geeks, and HighLevel subscriptions — Webster-profile
-  business-tool spend on a personal-name card; still needs his word.
+  still needed there), business accounts not covered.
+  **Flag cards RESOLVED same day (Webster: both his):** Discover-6368 and
+  WF-Platinum-4965 opened under Personal, inventory rows OK'd, anchors
+  added, and the remaining **72 rows ingested** on a re-run (all
+  `#unreviewed #d1-backfill`; review queue now ~2,050). ⚠️ IMPORTANT for
+  the next feed pull: these two accounts' FIRST SimpleFIN ingestion
+  overlaps the backfill (May–Jul), so `ingest_simplefin.py` now carries a
+  scoped guard (`D1_GUARDED_ACCTS`) that skips feed txns matching a
+  `#d1-backfill` entry on those two accounts only (same amount, ±4 days)
+  and records their feed ids in seen. Do not remove it before the first
+  post-open pull has run.
 - Books start date: **2025-01-01** (Webster's call). Opening balances: Claude
   derives from feed history, Webster confirms every number (nothing locked yet).
 - Inventory: `inventory/account-inventory.csv` — 36 rows, final except 5 flags
@@ -77,8 +81,12 @@ Start any new chat by reading this file. It supersedes older kickoff notes.
 - 2025 joint 1040: total income 196,609; tax 36,658; payments 0.
 
 ## Open flags (ask Webster)
-1. WF PLATINUM card ...4965 — whose? (new in feed)
-2. Discover card "Alfred" ...6368 — whose? (new in feed)
+1. ~~WF PLATINUM card ...4965 — whose?~~ **RESOLVED 2026-08-14, Webster's
+   word: his.** Opened as `Liabilities:Personal:Card:WF-Platinum-4965`;
+   D1 rows ingested.
+2. ~~Discover card "Alfred" ...6368 — whose?~~ **RESOLVED 2026-08-14,
+   Webster's word: his.** Opened as `Liabilities:Personal:Card:Discover-6368`;
+   D1 rows ingested. (Carries the Anthropic/Real Geeks/HighLevel subs.)
 3. Schwab futures ...104 — in scope or not?
 4. Stripe — which entity receives payouts?
 5. WF ...2443 appears TWICE in SimpleFIN (duplicate connection after reauth).

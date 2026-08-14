@@ -168,6 +168,11 @@
   institution: "Credit One Bank"
   last4: "9505"
   simplefin: "ACT-7c0540d6-c040-498b-8f4c-21355a5434f2"
+2025-01-01 open Liabilities:Personal:Card:Discover-6368  USD
+  owner: "webster"
+  institution: "Discover Credit Card"
+  last4: "6368"
+  simplefin: "ACT-7040f1d7-4524-4f4a-b494-6a52dccd037c"
 2025-01-01 open Liabilities:Personal:Card:HomeDepot-9592  USD
   owner: "webster"
   institution: "Home Depot Credit Card by Citibank"
@@ -183,6 +188,11 @@
   institution: "Wells Fargo"
   last4: "3463"
   simplefin: "ACT-f1454bd0-9a0e-490f-8525-f441ab6d86df"
+2025-01-01 open Liabilities:Personal:Card:WF-Platinum-4965  USD
+  owner: "webster"
+  institution: "Wells Fargo"
+  last4: "4965"
+  simplefin: "ACT-3b08acc7-e262-4086-98ac-81d564a8de3c"
 2025-01-01 open Liabilities:Personal:Card:WF-Reflect-9832  USD
   owner: "mary"
   institution: "Wells Fargo"

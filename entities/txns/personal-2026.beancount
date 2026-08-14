@@ -8552,3 +8552,433 @@
   d1_category: "exp_travel"
   Liabilities:Personal:Card:Wayfair-7948  -3344.19 USD
   Expenses:Personal:Uncategorized  3344.19 USD
+
+2026-01-01 ! "REAL GEEKS 8443114969" "REAL GEEKS 8443114969" #unreviewed #d1-backfill
+  d1_id: "txn_57d395359d264f4f8b96"
+  d1_category: "exp_lead_gen"
+  Liabilities:Personal:Card:Discover-6368  -1609 USD
+  Expenses:Personal:Uncategorized  1609 USD
+
+2026-01-08 ! "AUTOMATIC PAYMENT - THANK YOU" "AUTOMATIC PAYMENT - THANK YOU" #unreviewed #d1-backfill
+  d1_id: "txn_112917d59e674669aefc"
+  d1_category: "xfer_cc_payment"
+  Liabilities:Personal:Card:WF-Platinum-4965  2.99 USD
+  Income:Personal:Uncategorized  -2.99 USD
+
+2026-01-09 ! "LA PAELLA" "LA PAELLA" #unreviewed #d1-backfill
+  d1_id: "txn_a4e7066809834ff99d64"
+  d1_category: "exp_meals"
+  Liabilities:Personal:Card:Discover-6368  -55.65 USD
+  Expenses:Personal:Uncategorized  55.65 USD
+
+2026-01-13 ! "HOME PROP S" "HOME PROP S" #unreviewed #d1-backfill
+  d1_id: "txn_fe761c24384e4d84afff"
+  Liabilities:Personal:Card:Discover-6368  -399 USD
+  Expenses:Personal:Uncategorized  399 USD
+
+2026-01-15 ! "GAIA FOR TV CA ITEM TRANSFERRED FROM PRE" "GAIA FOR TV CA ITEM TRANSFERRED FROM PREV ACCOUNT" #unreviewed #d1-backfill
+  d1_id: "txn_360f284d838342e7ac32"
+  d1_category: "exp_entertainment"
+  Liabilities:Personal:Card:Discover-6368  -13.99 USD
+  Expenses:Personal:Uncategorized  13.99 USD
+
+2026-01-17 ! "Google One g.co/helppay#CA" "Google One g.co/helppay#CA" #unreviewed #d1-backfill
+  d1_id: "txn_fe01be88cb2446af941b"
+  d1_category: "exp_dues"
+  Liabilities:Personal:Card:WF-Platinum-4965  -2.99 USD
+  Expenses:Personal:Uncategorized  2.99 USD
+
+2026-01-21 ! "DIRECTPAY MINIMUM PAYMENT SEE DETAILS OF" "DIRECTPAY MINIMUM PAYMENT SEE DETAILS OF YOUR NEXT DIRECTPAY BELOW" #unreviewed #d1-backfill
+  d1_id: "txn_22aa7270c6f843249200"
+  d1_category: "xfer_cc_payment"
+  Liabilities:Personal:Card:Discover-6368  39 USD
+  Income:Personal:Uncategorized  -39 USD
+
+2026-01-26 ! "INTEREST CHARGE ON PURCHASES" "INTEREST CHARGE ON PURCHASES" #unreviewed #d1-backfill
+  d1_id: "txn_639d938ba7bd4a38a670"
+  d1_category: "exp_bank_fees"
+  Liabilities:Personal:Card:Discover-6368  -55.14 USD
+  Expenses:Personal:Uncategorized  55.14 USD
+
+2026-02-01 ! "REAL GEEKS 8443114969" "REAL GEEKS 8443114969" #unreviewed #d1-backfill
+  d1_id: "txn_2c00e1900ffe4a33b551"
+  d1_category: "exp_lead_gen"
+  Liabilities:Personal:Card:Discover-6368  -1609 USD
+  Expenses:Personal:Uncategorized  1609 USD
+
+2026-02-08 ! "AUTOMATIC PAYMENT - THANK YOU" "AUTOMATIC PAYMENT - THANK YOU" #unreviewed #d1-backfill
+  d1_id: "txn_d12e80c6f4ac423fbb98"
+  d1_category: "xfer_cc_payment"
+  Liabilities:Personal:Card:WF-Platinum-4965  2.99 USD
+  Income:Personal:Uncategorized  -2.99 USD
+
+2026-02-10 ! "HIGHLEVEL INC." "HIGHLEVEL INC." #unreviewed #d1-backfill
+  d1_id: "txn_39a53a38059a40aebc39"
+  d1_category: "exp_crm"
+  Liabilities:Personal:Card:Discover-6368  -25 USD
+  Expenses:Personal:Uncategorized  25 USD
+
+2026-02-15 ! "GAIA FOR TV CA ITEM TRANSFERRED FROM PRE" "GAIA FOR TV CA ITEM TRANSFERRED FROM PREV ACCOUNT" #unreviewed #d1-backfill
+  d1_id: "txn_2cea7821c3364ff2b00c"
+  d1_category: "exp_entertainment"
+  Liabilities:Personal:Card:Discover-6368  -13.99 USD
+  Expenses:Personal:Uncategorized  13.99 USD
+
+2026-02-16 ! "HOME PROP S" "HOME PROP S" #unreviewed #d1-backfill
+  d1_id: "txn_abed5020d2ec4aa9a4a3"
+  Liabilities:Personal:Card:Discover-6368  -399 USD
+  Expenses:Personal:Uncategorized  399 USD
+
+2026-02-17 ! "Google One g.co/helppay#CA" "Google One g.co/helppay#CA" #unreviewed #d1-backfill
+  d1_id: "txn_64965e1ecc5e4374bf6a"
+  d1_category: "exp_dues"
+  Liabilities:Personal:Card:WF-Platinum-4965  -2.99 USD
+  Expenses:Personal:Uncategorized  2.99 USD
+
+2026-02-21 ! "DIRECTPAY MINIMUM PAYMENT SEE DETAILS OF" "DIRECTPAY MINIMUM PAYMENT SEE DETAILS OF YOUR NEXT DIRECTPAY BELOW" #unreviewed #d1-backfill
+  d1_id: "txn_0f74e831143c449e8832"
+  d1_category: "xfer_cc_payment"
+  Liabilities:Personal:Card:Discover-6368  81 USD
+  Income:Personal:Uncategorized  -81 USD
+
+2026-02-26 ! "INTEREST CHARGE ON PURCHASES" "INTEREST CHARGE ON PURCHASES" #unreviewed #d1-backfill
+  d1_id: "txn_bd028786a40e418ead99"
+  d1_category: "exp_bank_fees"
+  Liabilities:Personal:Card:Discover-6368  -87.25 USD
+  Expenses:Personal:Uncategorized  87.25 USD
+
+2026-02-27 ! "HIGHLEVEL AGENCY SUB" "HIGHLEVEL AGENCY SUB" #unreviewed #d1-backfill
+  d1_id: "txn_514e78b6a3b648bb99cc"
+  d1_category: "exp_crm"
+  Liabilities:Personal:Card:Discover-6368  -97 USD
+  Expenses:Personal:Uncategorized  97 USD
+
+2026-03-01 ! "REAL GEEKS 8443114969" "REAL GEEKS 8443114969" #unreviewed #d1-backfill
+  d1_id: "txn_9e32d2fc0bd140a78318"
+  d1_category: "exp_lead_gen"
+  Liabilities:Personal:Card:Discover-6368  -1609 USD
+  Expenses:Personal:Uncategorized  1609 USD
+
+2026-03-08 ! "AUTOMATIC PAYMENT - THANK YOU" "AUTOMATIC PAYMENT - THANK YOU" #unreviewed #d1-backfill
+  d1_id: "txn_220e73526a7b4d129285"
+  d1_category: "xfer_cc_payment"
+  Liabilities:Personal:Card:WF-Platinum-4965  2.99 USD
+  Income:Personal:Uncategorized  -2.99 USD
+
+2026-03-09 ! "HIGHLEVEL INC." "HIGHLEVEL INC." #unreviewed #d1-backfill
+  d1_id: "txn_5cc35edb09cd4206924e"
+  d1_category: "exp_crm"
+  Liabilities:Personal:Card:Discover-6368  -25 USD
+  Expenses:Personal:Uncategorized  25 USD
+
+2026-03-15 ! "GAIA FOR TV CA ITEM TRANSFERRED FROM PRE" "GAIA FOR TV CA ITEM TRANSFERRED FROM PREV ACCOUNT" #unreviewed #d1-backfill
+  d1_id: "txn_bae44d3bcd5349dfa04f"
+  d1_category: "exp_entertainment"
+  Liabilities:Personal:Card:Discover-6368  -15.99 USD
+  Expenses:Personal:Uncategorized  15.99 USD
+
+2026-03-17 ! "Google One" "Google One" #unreviewed #d1-backfill
+  d1_id: "txn_e48934d399c742009ed7"
+  d1_category: "exp_dues"
+  Liabilities:Personal:Card:WF-Platinum-4965  -2.99 USD
+  Expenses:Personal:Uncategorized  2.99 USD
+
+2026-03-21 ! "DIRECTPAY MINIMUM PAYMENT SEE DETAILS OF" "DIRECTPAY MINIMUM PAYMENT SEE DETAILS OF YOUR NEXT DIRECTPAY BELOW" #unreviewed #d1-backfill
+  d1_id: "txn_1494ffa04c4c4ef1acac"
+  d1_category: "xfer_cc_payment"
+  Liabilities:Personal:Card:Discover-6368  122 USD
+  Income:Personal:Uncategorized  -122 USD
+
+2026-03-26 ! "INTEREST CHARGE ON PURCHASES" "INTEREST CHARGE ON PURCHASES" #unreviewed #d1-backfill
+  d1_id: "txn_364fa02e1c8942029567"
+  d1_category: "exp_bank_fees"
+  Liabilities:Personal:Card:Discover-6368  -109.43 USD
+  Expenses:Personal:Uncategorized  109.43 USD
+
+2026-03-27 ! "HIGHLEVEL AGENCY SUB" "HIGHLEVEL AGENCY SUB" #unreviewed #d1-backfill
+  d1_id: "txn_157a079d249c4e1292cf"
+  d1_category: "exp_crm"
+  Liabilities:Personal:Card:Discover-6368  -97 USD
+  Expenses:Personal:Uncategorized  97 USD
+
+2026-03-30 ! "CASHBACK BONUS REDEMPTION PYMT/STMT CRDT" "CASHBACK BONUS REDEMPTION PYMT/STMT CRDT" #unreviewed #d1-backfill
+  d1_id: "txn_20bf1a3787474cc2a02c"
+  d1_category: "xfer_cc_payment"
+  Liabilities:Personal:Card:Discover-6368  154.81 USD
+  Income:Personal:Uncategorized  -154.81 USD
+
+2026-03-30 ! "INTERNET PAYMENT - THANK YOU" "INTERNET PAYMENT - THANK YOU" #unreviewed #d1-backfill
+  d1_id: "txn_a9926f1adb3c44408365"
+  d1_category: "xfer_cc_payment"
+  Liabilities:Personal:Card:Discover-6368  1000 USD
+  Income:Personal:Uncategorized  -1000 USD
+
+2026-04-01 ! "REAL GEEKS 8443114969" "REAL GEEKS 8443114969" #unreviewed #d1-backfill
+  d1_id: "txn_1022d7ed818b4c42bc01"
+  d1_category: "exp_lead_gen"
+  Liabilities:Personal:Card:Discover-6368  -1609 USD
+  Expenses:Personal:Uncategorized  1609 USD
+
+2026-04-08 ! "AUTOMATIC PAYMENT - THANK YOU" "AUTOMATIC PAYMENT - THANK YOU" #unreviewed #d1-backfill
+  d1_id: "txn_06cd62fcdd4846c0ad0a"
+  d1_category: "xfer_cc_payment"
+  Liabilities:Personal:Card:WF-Platinum-4965  2.99 USD
+  Income:Personal:Uncategorized  -2.99 USD
+
+2026-04-09 ! "HIGHLEVEL INC." "HIGHLEVEL INC." #unreviewed #d1-backfill
+  d1_id: "txn_3c521f389fdb4da3a8ad"
+  d1_category: "exp_crm"
+  Liabilities:Personal:Card:Discover-6368  -25 USD
+  Expenses:Personal:Uncategorized  25 USD
+
+2026-04-15 ! "GAIA FOR TV CA ITEM TRANSFERRED FROM PRE" "GAIA FOR TV CA ITEM TRANSFERRED FROM PREV ACCOUNT" #unreviewed #d1-backfill
+  d1_id: "txn_00d2474f87324a51ad52"
+  d1_category: "exp_entertainment"
+  Liabilities:Personal:Card:Discover-6368  -15.99 USD
+  Expenses:Personal:Uncategorized  15.99 USD
+
+2026-04-17 ! "CP* CMX CINEMAS 9547584849" "CP* CMX CINEMAS 9547584849" #unreviewed #d1-backfill
+  d1_id: "txn_24ea83db648e4960b70c"
+  d1_category: "exp_entertainment"
+  Liabilities:Personal:Card:Discover-6368  -51.9 USD
+  Expenses:Personal:Uncategorized  51.9 USD
+
+2026-04-17 ! "Google One g.co/helppay#CA" "Google One g.co/helppay#CA" #unreviewed #d1-backfill
+  d1_id: "txn_62e62dcdf0e547349a87"
+  d1_category: "exp_dues"
+  Liabilities:Personal:Card:WF-Platinum-4965  -2.99 USD
+  Expenses:Personal:Uncategorized  2.99 USD
+
+2026-04-26 ! "INTEREST CHARGE ON PURCHASES" "INTEREST CHARGE ON PURCHASES" #unreviewed #d1-backfill
+  d1_id: "txn_ec57ef0364174ca3b253"
+  d1_category: "exp_bank_fees"
+  Liabilities:Personal:Card:Discover-6368  -130.53 USD
+  Expenses:Personal:Uncategorized  130.53 USD
+
+2026-04-27 ! "HIGHLEVEL AGENCY SUB" "HIGHLEVEL AGENCY SUB" #unreviewed #d1-backfill
+  d1_id: "txn_612db4c931a94b59b5fb"
+  d1_category: "exp_crm"
+  Liabilities:Personal:Card:Discover-6368  -97 USD
+  Expenses:Personal:Uncategorized  97 USD
+
+2026-05-05 ! "HIGHLEVEL INC." "HIGHLEVEL INC." #unreviewed #d1-backfill
+  d1_id: "txn_9ee7d4a515114e2da902"
+  d1_category: "exp_crm"
+  Liabilities:Personal:Card:Discover-6368  -25 USD
+  Expenses:Personal:Uncategorized  25 USD
+
+2026-05-08 ! "AUTOMATIC PAYMENT - THANK YOU" "AUTOMATIC PAYMENT - THANK YOU" #unreviewed #d1-backfill
+  d1_id: "txn_0305fea7cd8d4dbd88f1"
+  d1_category: "xfer_cc_payment"
+  Liabilities:Personal:Card:WF-Platinum-4965  2.99 USD
+  Income:Personal:Uncategorized  -2.99 USD
+
+2026-05-15 ! "GAIA FOR TV CA ITEM TRANSFERRED FROM PRE" "GAIA FOR TV CA ITEM TRANSFERRED FROM PREV ACCOUNT" #unreviewed #d1-backfill
+  d1_id: "txn_ae30a66fad534a7badd9"
+  d1_category: "exp_entertainment"
+  Liabilities:Personal:Card:Discover-6368  -15.99 USD
+  Expenses:Personal:Uncategorized  15.99 USD
+
+2026-05-17 ! "Google One" "Google One" #unreviewed #d1-backfill
+  d1_id: "txn_5d7b159b83264a449373"
+  d1_category: "exp_dues"
+  Liabilities:Personal:Card:WF-Platinum-4965  -2.99 USD
+  Expenses:Personal:Uncategorized  2.99 USD
+
+2026-05-18 ! "INTERNET PAYMENT - THANK YOU" "INTERNET PAYMENT - THANK YOU" #unreviewed #d1-backfill
+  d1_id: "txn_6b7d111dcb004a8292c2"
+  d1_category: "xfer_cc_payment"
+  Liabilities:Personal:Card:Discover-6368  3500 USD
+  Income:Personal:Uncategorized  -3500 USD
+
+2026-05-26 ! "INTEREST CHARGE ON PURCHASES" "INTEREST CHARGE ON PURCHASES" #unreviewed #d1-backfill
+  d1_id: "txn_f4103e048fe7470f929f"
+  d1_category: "exp_bank_fees"
+  Liabilities:Personal:Card:Discover-6368  -117.29 USD
+  Expenses:Personal:Uncategorized  117.29 USD
+
+2026-05-27 ! "HIGHLEVEL AGENCY SUB" "HIGHLEVEL AGENCY SUB" #unreviewed #d1-backfill
+  d1_id: "txn_71bd3ff2308445dc800d"
+  d1_category: "exp_crm"
+  Liabilities:Personal:Card:Discover-6368  -97 USD
+  Expenses:Personal:Uncategorized  97 USD
+
+2026-05-29 ! "REAL GEEKS 8443114969" "REAL GEEKS 8443114969" #unreviewed #d1-backfill
+  d1_id: "txn_d5a8de3b6e2a45b59a9e"
+  d1_category: "exp_lead_gen"
+  Liabilities:Personal:Card:Discover-6368  -1609 USD
+  Expenses:Personal:Uncategorized  1609 USD
+
+2026-06-01 ! "REAL GEEKS 8443114969" "REAL GEEKS 8443114969" #unreviewed #d1-backfill
+  d1_id: "txn_d58c55d0dfe74066829a"
+  d1_category: "exp_lead_gen"
+  Liabilities:Personal:Card:Discover-6368  -534 USD
+  Expenses:Personal:Uncategorized  534 USD
+
+2026-06-07 ! "PORKBUN.COM 8557675286 OR ITEM TRANSFERR" "PORKBUN.COM 8557675286 OR ITEM TRANSFERRED FROM PREV ACCOUNT" #unreviewed #d1-backfill
+  d1_id: "txn_94a0bc9eb0ab4a618f8d"
+  d1_category: "exp_dues"
+  Liabilities:Personal:Card:Discover-6368  -33.24 USD
+  Expenses:Personal:Uncategorized  33.24 USD
+
+2026-06-08 ! "AUTOMATIC PAYMENT - THANK YOU" "AUTOMATIC PAYMENT - THANK YOU" #unreviewed #d1-backfill
+  d1_id: "txn_bfd7d82ad9a94a7091d8"
+  d1_category: "xfer_cc_payment"
+  Liabilities:Personal:Card:WF-Platinum-4965  2.99 USD
+  Income:Personal:Uncategorized  -2.99 USD
+
+2026-06-15 ! "GAIA FOR TV CA ITEM TRANSFERRED FROM PRE" "GAIA FOR TV CA ITEM TRANSFERRED FROM PREV ACCOUNT" #unreviewed #d1-backfill
+  d1_id: "txn_10ab25bc43ac498ab02d"
+  d1_category: "exp_entertainment"
+  Liabilities:Personal:Card:Discover-6368  -15.99 USD
+  Expenses:Personal:Uncategorized  15.99 USD
+
+2026-06-16 ! "HIGHLEVEL INC." "HIGHLEVEL INC." #unreviewed #d1-backfill
+  d1_id: "txn_08bd5f49c8f44c91876a"
+  d1_category: "exp_crm"
+  Liabilities:Personal:Card:Discover-6368  -25 USD
+  Expenses:Personal:Uncategorized  25 USD
+
+2026-06-17 ! "Google One" "Google One" #unreviewed #d1-backfill
+  d1_id: "txn_047227a4024e45d4982b"
+  d1_category: "exp_dues"
+  Liabilities:Personal:Card:WF-Platinum-4965  -2.99 USD
+  Expenses:Personal:Uncategorized  2.99 USD
+
+2026-06-21 ! "DIRECTPAY MINIMUM PAYMENT SEE DETAILS OF" "DIRECTPAY MINIMUM PAYMENT SEE DETAILS OF YOUR NEXT DIRECTPAY BELOW" #unreviewed #d1-backfill
+  d1_id: "txn_a1db3e2e235a4670ad54"
+  d1_category: "xfer_cc_payment"
+  Liabilities:Personal:Card:Discover-6368  138 USD
+  Income:Personal:Uncategorized  -138 USD
+
+2026-06-26 ! "INTEREST CHARGE ON PURCHASES" "INTEREST CHARGE ON PURCHASES" #unreviewed #d1-backfill
+  d1_id: "txn_c11b4366e373423182b1"
+  d1_category: "exp_bank_fees"
+  Liabilities:Personal:Card:Discover-6368  -117.06 USD
+  Expenses:Personal:Uncategorized  117.06 USD
+
+2026-06-27 ! "HIGHLEVEL AGENCY SUB" "HIGHLEVEL AGENCY SUB" #unreviewed #d1-backfill
+  d1_id: "txn_699b2c5e592d4acface4"
+  d1_category: "exp_crm"
+  Liabilities:Personal:Card:Discover-6368  -97 USD
+  Expenses:Personal:Uncategorized  97 USD
+
+2026-07-01 ! "REAL GEEKS 8443114969" "REAL GEEKS 8443114969" #unreviewed #d1-backfill
+  d1_id: "txn_728cb55cd6e24ca380a6"
+  d1_category: "exp_lead_gen"
+  Liabilities:Personal:Card:Discover-6368  -509 USD
+  Expenses:Personal:Uncategorized  509 USD
+
+2026-07-04 ! "HIGHLEVEL INC." "HIGHLEVEL INC." #unreviewed #d1-backfill
+  d1_id: "txn_bf57716e70ae4020b563"
+  d1_category: "exp_crm"
+  Liabilities:Personal:Card:Discover-6368  -10 USD
+  Expenses:Personal:Uncategorized  10 USD
+
+2026-07-06 ! "ANTHROPIC 4152360599" "ANTHROPIC 4152360599" #unreviewed #d1-backfill
+  d1_id: "txn_8aa48279b8044f3490a0"
+  d1_category: "exp_software"
+  Liabilities:Personal:Card:Discover-6368  -200 USD
+  Expenses:Personal:Uncategorized  200 USD
+
+2026-07-07 ! "ANTHROPIC 4152360599" "ANTHROPIC 4152360599" #unreviewed #d1-backfill
+  d1_id: "txn_2d1b62a4d7c74600a753"
+  d1_category: "exp_software"
+  Liabilities:Personal:Card:Discover-6368  -12.77 USD
+  Expenses:Personal:Uncategorized  12.77 USD
+
+2026-07-07 ! "ANTHROPIC 4152360599" "ANTHROPIC 4152360599" #unreviewed #d1-backfill
+  d1_id: "txn_43e73f5551e8456cabfc"
+  d1_category: "exp_software"
+  Liabilities:Personal:Card:Discover-6368  -13.41 USD
+  Expenses:Personal:Uncategorized  13.41 USD
+
+2026-07-07 ! "ANTHROPIC 4152360599" "ANTHROPIC 4152360599" #unreviewed #d1-backfill
+  d1_id: "txn_45826fcc31e548cf8893"
+  d1_category: "exp_software"
+  Liabilities:Personal:Card:Discover-6368  -15.36 USD
+  Expenses:Personal:Uncategorized  15.36 USD
+
+2026-07-07 ! "ANTHROPIC 4152360599" "ANTHROPIC 4152360599" #unreviewed #d1-backfill
+  d1_id: "txn_66e727f7e72f411e94cf"
+  d1_category: "exp_software"
+  Liabilities:Personal:Card:Discover-6368  -17.05 USD
+  Expenses:Personal:Uncategorized  17.05 USD
+
+2026-07-07 ! "ANTHROPIC 4152360599" "ANTHROPIC 4152360599" #unreviewed #d1-backfill
+  d1_id: "txn_a1cd5b0712104703b928"
+  d1_category: "exp_software"
+  Liabilities:Personal:Card:Discover-6368  -14.99 USD
+  Expenses:Personal:Uncategorized  14.99 USD
+
+2026-07-07 ! "ANTHROPIC 4152360599" "ANTHROPIC 4152360599" #unreviewed #d1-backfill
+  d1_id: "txn_d6193816b47d400da873"
+  d1_category: "exp_software"
+  Liabilities:Personal:Card:Discover-6368  -11.68 USD
+  Expenses:Personal:Uncategorized  11.68 USD
+
+2026-07-07 ! "ANTHROPIC 4152360599" "ANTHROPIC 4152360599" #unreviewed #d1-backfill
+  d1_id: "txn_ee10fb036de64ea6bdf6"
+  d1_category: "exp_software"
+  Liabilities:Personal:Card:Discover-6368  -15.7 USD
+  Expenses:Personal:Uncategorized  15.7 USD
+
+2026-07-07 ! "ANTHROPIC 4152360599" "ANTHROPIC 4152360599" #unreviewed #d1-backfill
+  d1_id: "txn_f2da8f03f8ec40a490bd"
+  d1_category: "exp_software"
+  Liabilities:Personal:Card:Discover-6368  -10.23 USD
+  Expenses:Personal:Uncategorized  10.23 USD
+
+2026-07-07 ! "ANTHROPIC 4152360599" "ANTHROPIC 4152360599" #unreviewed #d1-backfill
+  d1_id: "txn_fa8036c921e24d9ab442"
+  d1_category: "exp_software"
+  Liabilities:Personal:Card:Discover-6368  -10.07 USD
+  Expenses:Personal:Uncategorized  10.07 USD
+
+2026-07-08 ! "AUTOMATIC PAYMENT - THANK YOU" "AUTOMATIC PAYMENT - THANK YOU" #unreviewed #d1-backfill
+  d1_id: "txn_75de6a770aed496d8b52"
+  d1_category: "xfer_cc_payment"
+  Liabilities:Personal:Card:WF-Platinum-4965  2.99 USD
+  Income:Personal:Uncategorized  -2.99 USD
+
+2026-07-13 ! "HIGHLEVEL INC." "HIGHLEVEL INC." #unreviewed #d1-backfill
+  d1_id: "txn_ed5095bde3cc4078a7a6"
+  d1_category: "exp_crm"
+  Liabilities:Personal:Card:Discover-6368  -25 USD
+  Expenses:Personal:Uncategorized  25 USD
+
+2026-07-14 ! "PORKBUN.COM 8557675286 OR ITEM TRANSFERR" "PORKBUN.COM 8557675286 OR ITEM TRANSFERRED FROM PREV ACCOUNT" #unreviewed #d1-backfill
+  d1_id: "txn_b80271818dc144bfbfcc"
+  d1_category: "exp_dues"
+  Liabilities:Personal:Card:Discover-6368  -21.11 USD
+  Expenses:Personal:Uncategorized  21.11 USD
+
+2026-07-15 ! "GAIA FOR TV CA ITEM TRANSFERRED FROM PRE" "GAIA FOR TV CA ITEM TRANSFERRED FROM PREV ACCOUNT" #unreviewed #d1-backfill
+  d1_id: "txn_c3ba390944bc4eeaba6a"
+  d1_category: "exp_entertainment"
+  Liabilities:Personal:Card:Discover-6368  -15.99 USD
+  Expenses:Personal:Uncategorized  15.99 USD
+
+2026-07-17 ! "Google One g.co/helppay#CA" "Google One g.co/helppay#CA" #unreviewed #d1-backfill
+  d1_id: "txn_48f4aadb590745a88784"
+  d1_category: "exp_dues"
+  Liabilities:Personal:Card:WF-Platinum-4965  -2.99 USD
+  Expenses:Personal:Uncategorized  2.99 USD
+
+2026-07-21 ! "DIRECTPAY MINIMUM PAYMENT SEE DETAILS OF" "DIRECTPAY MINIMUM PAYMENT SEE DETAILS OF YOUR NEXT DIRECTPAY BELOW" #unreviewed #d1-backfill
+  d1_id: "txn_894d64d38a394ac080be"
+  d1_category: "xfer_cc_payment"
+  Liabilities:Personal:Card:Discover-6368  153 USD
+  Income:Personal:Uncategorized  -153 USD
+
+2026-07-26 ! "INTEREST CHARGE ON PURCHASES" "INTEREST CHARGE ON PURCHASES" #unreviewed #d1-backfill
+  d1_id: "txn_60681f0d11d54a01bd35"
+  d1_category: "exp_bank_fees"
+  Liabilities:Personal:Card:Discover-6368  -128.53 USD
+  Expenses:Personal:Uncategorized  128.53 USD
+
+2026-07-27 ! "HIGHLEVEL AGENCY SUB" "HIGHLEVEL AGENCY SUB" #unreviewed #d1-backfill
+  d1_id: "txn_affecdb011cd40bfa8dc"
+  d1_category: "exp_crm"
+  Liabilities:Personal:Card:Discover-6368  -97 USD
+  Expenses:Personal:Uncategorized  97 USD

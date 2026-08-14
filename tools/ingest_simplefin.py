@@ -26,6 +26,40 @@ STATE = os.path.join(ROOT, "data", "ingest_state.json")
 DUP_FEED_IDS = {"ACT-3bd1adfa-76a6-4820-9a80-627888a7f1af"}  # WF-2443 duplicate
 MATCH_WINDOW_DAYS = 3
 
+# Accounts whose Jan->Jul 2026 history was backfilled from the D1 export
+# BEFORE their first feed ingestion (opened 2026-08-14 on Webster's answer to
+# inventory flags 1-2). Their FIRST feed pull overlaps that backfill, so a
+# feed txn on these accounts matching a #d1-backfill entry (same account,
+# same amount, +/-4 days) is skipped as already booked. Only these accounts
+# are guarded - everywhere else the feed remains the sole writer.
+D1_GUARDED_ACCTS = {
+    "Liabilities:Personal:Card:Discover-6368",
+    "Liabilities:Personal:Card:WF-Platinum-4965",
+}
+D1_GUARD_WINDOW_DAYS = 4
+
+def d1_backfill_index():
+    """(account, amount) -> [dates] for every #d1-backfill posting on a
+    guarded account."""
+    import io as _io
+    from collections import defaultdict as _dd
+    idx = _dd(list)
+    post_re = re.compile(r"^\s+((?:Assets|Liabilities)[A-Za-z0-9:\-]+)\s+(-?[\d,]+\.\d{2}|-?\d+)\s+USD")
+    for fn in os.listdir(TXNDIR):
+        if not fn.endswith(".beancount"):
+            continue
+        cur_date, is_d1 = None, False
+        for line in _io.open(os.path.join(TXNDIR, fn), encoding="utf-8"):
+            m = re.match(r"^(\d{4}-\d{2}-\d{2})\s+[*!]\s", line)
+            if m:
+                cur_date = datetime.date.fromisoformat(m.group(1))
+                is_d1 = "#d1-backfill" in line
+                continue
+            p = post_re.match(line)
+            if p and cur_date and is_d1 and p.group(1) in D1_GUARDED_ACCTS:
+                idx[(p.group(1), Decimal(p.group(2).replace(",", "")))].append(cur_date)
+    return idx
+
 def clean(s):
     s = re.sub(r"[^\x20-\x7E]", " ", s or "")          # strip mojibake
     s = s.replace('"', "'")                            # quotes break beancount strings
@@ -44,6 +78,8 @@ def main(json_path):
 
     data = json.load(open(json_path, encoding="utf-8"))
     txns, skipped_unmapped, skipped_dupfeed, skipped_seen = [], 0, 0, 0
+    skipped_d1 = 0
+    d1_idx = d1_backfill_index()
     balances = []
     for a in data.get("accounts", []):
         aid = a.get("id")
@@ -60,6 +96,14 @@ def main(json_path):
             if tid in seen:
                 skipped_seen += 1
                 continue
+            if row["beancount_account"] in D1_GUARDED_ACCTS:
+                _d = datetime.datetime.utcfromtimestamp(t["posted"]).date()
+                _a = Decimal(t["amount"])
+                if any(abs((x - _d).days) <= D1_GUARD_WINDOW_DAYS
+                       for x in d1_idx.get((row["beancount_account"], _a), [])):
+                    seen[tid] = str(_d)   # booked via d1-backfill; never re-ingest
+                    skipped_d1 += 1
+                    continue
             txns.append(dict(
                 id=tid, acct=row["beancount_account"],
                 entity=row["beancount_account"].split(":")[1],
@@ -198,6 +242,7 @@ def main(json_path):
     print(f"skipped - already ingested : {skipped_seen}")
     print(f"skipped - duplicate feed   : {skipped_dupfeed}")
     print(f"skipped - unmapped/flagged : {skipped_unmapped}")
+    print(f"skipped - d1-backfilled    : {skipped_d1}")
 
 if __name__ == "__main__":
     main(sys.argv[1])
