@@ -6,4 +6,7 @@ __pycache__/
 simplefin_access.txt
 SIMPLEFIN.txt
 simplefin_survey.json
+simplefin_transactions.json
+simplefin_backfill.json
 *.secret
+mw-ui/activity.db
