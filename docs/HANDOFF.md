@@ -20,6 +20,13 @@ Start any new chat by reading this file. It supersedes older kickoff notes.
 - Repo `C:\Users\webko\mw-books` IS the system of record, git-initialized, all
   work committed and pushed to GitHub (see Remote & phone access above).
   `bean-check main.beancount` passes.
+- **Ledger-of-record ruling (Webster, 2026-08-14): MW Books supersedes the
+  earlier "MW Group Accounting System"** — a Cloudflare Worker + D1 app
+  (`mw-accounting`, deployed 2026-08-01, repo `C:\Users\webko\mw-accounting`)
+  that was briefly stamped ledger of record, along with its Rocket-Money-feed
+  plan. That app is retired from bookkeeping; nothing new gets built on it.
+  If you encounter references to "mw-accounting" or a D1 accounting app,
+  that's the superseded system, not this one.
 - Books start date: **2025-01-01** (Webster's call). Opening balances: Claude
   derives from feed history, Webster confirms every number (nothing locked yet).
 - Inventory: `inventory/account-inventory.csv` — 36 rows, final except 5 flags
