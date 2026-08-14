@@ -33,6 +33,5 @@ NEW_NEEDS_ANSWER,,,Wells Fargo,PLATINUM CARD ...4965 (4965),4965,ACT-3b08acc7-e2
 NEW_NEEDS_ANSWER,,,Discover Credit Card,Alfred (6368),6368,ACT-7040f1d7-4524-4f4a-b494-6a52dccd037c,USD,-8758.99,1786541425,yes,,simplefin,,NEW since Webster's sheet - whose is it?
 MANUAL_LANE,Personal,webster,Amazon Store Card,,,,USD,,,no,,statement-parse,Liabilities:Personal:Card:AmazonStore,not connected - statement-parse instead
 MANUAL_LANE,Personal,webster,PayPal,,,,USD,,,no,,statement-parse,Assets:Personal:Bank:PayPal,not connected - use PayPal API separately
-NEEDS_ANSWER,,,Mercury,Business checking (which entities?),,,USD,,,no,,TBD - native Mercury API,,"Old inventory says group bank, per-entity breakdown unknown"
 NEEDS_ANSWER,,,Charles Schwab,Futures account,104,,USD,,,no,,TBD - maybe out of scope v1,,Investment acct - Webster to confirm in/out of scope
 NEEDS_ANSWER,,,Stripe,Merchant account,,,USD,,,no,,Stripe reports,,Which entity receives payouts?

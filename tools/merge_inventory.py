@@ -92,9 +92,8 @@ def bean_name(entity, owner, row, last4):
 
 # --------------------------------------------- accounts SimpleFIN never has --
 MANUAL_LANES = [
-    dict(institution="Mercury", account_name="Business checking (which entities?)",
-         feed_lane="TBD - native Mercury API", status="NEEDS_ANSWER",
-         notes="Old inventory says group bank, per-entity breakdown unknown"),
+    # Mercury deliberately EXCLUDED (2026-08-13, Webster): "we will not use
+    # Mercury going forward" - not part of MW Books.
     dict(institution="Charles Schwab", account_name="Futures account", last4="104",
          feed_lane="TBD - maybe out of scope v1", status="NEEDS_ANSWER",
          notes="Investment acct - Webster to confirm in/out of scope"),
