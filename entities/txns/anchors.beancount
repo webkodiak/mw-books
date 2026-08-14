@@ -1,0 +1,85 @@
+;; Balance anchors - REGENERATED each ingest run.
+;; pad 2025-01-01 absorbs pre-history into Opening-Balances
+;; (PROVISIONAL until statement backfill covers 2025).
+
+2025-01-01 pad Assets:MWDev:Bank:WF-8627 Equity:MWDev:Opening-Balances
+2026-08-14 balance Assets:MWDev:Bank:WF-8627  30144.68 USD
+
+2025-01-01 pad Assets:MWFin:Bank:Chase-2320 Equity:MWFin:Opening-Balances
+2026-08-13 balance Assets:MWFin:Bank:Chase-2320  3258.12 USD
+
+2025-01-01 pad Assets:MWRealty:Bank:WF-9114 Equity:MWRealty:Opening-Balances
+2026-08-14 balance Assets:MWRealty:Bank:WF-9114  44854.14 USD
+
+2025-01-01 pad Assets:Personal:Bank:BofA-3417 Equity:Personal:Opening-Balances
+2026-08-13 balance Assets:Personal:Bank:BofA-3417  22006.33 USD
+
+2025-01-01 pad Assets:Personal:Bank:WF-2196 Equity:Personal:Opening-Balances
+2026-08-14 balance Assets:Personal:Bank:WF-2196  84.21 USD
+
+2025-01-01 pad Assets:Personal:Bank:WF-2443 Equity:Personal:Opening-Balances
+2026-08-14 balance Assets:Personal:Bank:WF-2443  3109.10 USD
+
+2025-01-01 pad Liabilities:MWFin:Card:Chase-2559 Equity:MWFin:Opening-Balances
+2026-08-13 balance Liabilities:MWFin:Card:Chase-2559  -12960.96 USD
+
+2025-01-01 pad Liabilities:Personal:Card:Amex-Hilton-1000 Equity:Personal:Opening-Balances
+2026-08-14 balance Liabilities:Personal:Card:Amex-Hilton-1000  -30.60 USD
+
+2025-01-01 pad Liabilities:Personal:Card:Amex-Platinum-1008 Equity:Personal:Opening-Balances
+2026-08-14 balance Liabilities:Personal:Card:Amex-Platinum-1008  -15028.63 USD
+
+2025-01-01 pad Liabilities:Personal:Card:AppleCard Equity:Personal:Opening-Balances
+2026-08-14 balance Liabilities:Personal:Card:AppleCard  -15.97 USD
+
+2026-08-13 balance Liabilities:Personal:Card:BestBuy-1870  0.00 USD
+
+2025-01-01 pad Liabilities:Personal:Card:BofA-CCR-6918 Equity:Personal:Opening-Balances
+2026-08-13 balance Liabilities:Personal:Card:BofA-CCR-6918  -10528.19 USD
+
+2025-01-01 pad Liabilities:Personal:Card:Caesars-0289 Equity:Personal:Opening-Balances
+2026-08-13 balance Liabilities:Personal:Card:Caesars-0289  -6038.98 USD
+
+2026-08-15 balance Liabilities:Personal:Card:CapOne-1456  0.00 USD
+
+2026-08-15 balance Liabilities:Personal:Card:CapOne-9578  -80.00 USD
+
+2026-08-15 balance Liabilities:Personal:Card:CapOne-9993  0.00 USD
+
+2025-01-01 pad Liabilities:Personal:Card:CareCredit-9175 Equity:Personal:Opening-Balances
+2026-08-14 balance Liabilities:Personal:Card:CareCredit-9175  -3534.21 USD
+
+2025-01-01 pad Liabilities:Personal:Card:CareCredit-Prime-1042 Equity:Personal:Opening-Balances
+2026-08-14 balance Liabilities:Personal:Card:CareCredit-Prime-1042  -6216.28 USD
+
+2025-01-01 pad Liabilities:Personal:Card:Chase-Sapphire-1631 Equity:Personal:Opening-Balances
+2026-08-13 balance Liabilities:Personal:Card:Chase-Sapphire-1631  -9351.89 USD
+
+2025-01-01 pad Liabilities:Personal:Card:Costco-2843 Equity:Personal:Opening-Balances
+2026-08-14 balance Liabilities:Personal:Card:Costco-2843  -6110.01 USD
+
+2025-01-01 pad Liabilities:Personal:Card:CreditOne-5992 Equity:Personal:Opening-Balances
+2026-08-14 balance Liabilities:Personal:Card:CreditOne-5992  -5.00 USD
+
+2025-01-01 pad Liabilities:Personal:Card:CreditOne-7798 Equity:Personal:Opening-Balances
+2026-08-14 balance Liabilities:Personal:Card:CreditOne-7798  -16.91 USD
+
+2025-01-01 pad Liabilities:Personal:Card:CreditOne-9505 Equity:Personal:Opening-Balances
+2026-08-14 balance Liabilities:Personal:Card:CreditOne-9505  0.00 USD
+
+2026-08-13 balance Liabilities:Personal:Card:HomeDepot-9592  0.00 USD
+
+2026-08-14 balance Liabilities:Personal:Card:Target-8187  0.00 USD
+
+2025-01-01 pad Liabilities:Personal:Card:WF-Platinum-3463 Equity:Personal:Opening-Balances
+2026-08-14 balance Liabilities:Personal:Card:WF-Platinum-3463  -3998.45 USD
+
+2025-01-01 pad Liabilities:Personal:Card:WF-Reflect-9832 Equity:Personal:Opening-Balances
+2026-08-14 balance Liabilities:Personal:Card:WF-Reflect-9832  -2225.00 USD
+
+2025-01-01 pad Liabilities:Personal:Card:Wayfair-7948 Equity:Personal:Opening-Balances
+2026-08-14 balance Liabilities:Personal:Card:Wayfair-7948  -7425.52 USD
+
+2025-01-01 pad Liabilities:Personal:Mortgage:MT-8801 Equity:Personal:Opening-Balances
+2026-08-13 balance Liabilities:Personal:Mortgage:MT-8801  -287829.82 USD
+

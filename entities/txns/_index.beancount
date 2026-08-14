@@ -1,0 +1,7 @@
+;; GENERATED include index - do not edit
+include "anchors.beancount"
+include "intercompany.beancount"
+include "mwdev-2026.beancount"
+include "mwfin-2026.beancount"
+include "mwrealty-2026.beancount"
+include "personal-2026.beancount"

@@ -17,5 +17,6 @@ include "entities/mw-development.beancount"
 include "entities/kml.beancount"
 include "entities/property-mgmt.beancount"
 include "entities/personal.beancount"
+include "entities/txns/_index.beancount"
 
 ;; Transactions land in per-entity files (or monthly files later) - never here.

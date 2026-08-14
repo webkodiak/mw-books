@@ -1,0 +1,17 @@
+;; Intercompany IOU accounts - GENERATED, append-only
+2025-01-01 open Assets:MWDev:DueFrom:MWRealty  USD
+2025-01-01 open Assets:MWDev:DueFrom:Personal  USD
+2025-01-01 open Assets:MWFin:DueFrom:Personal  USD
+2025-01-01 open Assets:MWRealty:DueFrom:MWDev  USD
+2025-01-01 open Assets:MWRealty:DueFrom:Personal  USD
+2025-01-01 open Assets:Personal:DueFrom:MWDev  USD
+2025-01-01 open Assets:Personal:DueFrom:MWFin  USD
+2025-01-01 open Assets:Personal:DueFrom:MWRealty  USD
+2025-01-01 open Liabilities:MWDev:DueTo:MWRealty  USD
+2025-01-01 open Liabilities:MWDev:DueTo:Personal  USD
+2025-01-01 open Liabilities:MWFin:DueTo:Personal  USD
+2025-01-01 open Liabilities:MWRealty:DueTo:MWDev  USD
+2025-01-01 open Liabilities:MWRealty:DueTo:Personal  USD
+2025-01-01 open Liabilities:Personal:DueTo:MWDev  USD
+2025-01-01 open Liabilities:Personal:DueTo:MWFin  USD
+2025-01-01 open Liabilities:Personal:DueTo:MWRealty  USD
