@@ -1336,3 +1336,810 @@
   simplefin_id: "TRN-dc601d18-31ac-48e2-b7f9-d46ef11a1ccf"
   Assets:MWFin:Bank:Chase-2320  17143.63 USD
   Income:MWFin:Uncategorized  -17143.63 USD
+
+2026-02-12 * "Transfer Chase-2559 -> BofA-3417" #transfer #auto-matched #d1-backfill
+  narration2: "X CORP. PAID FEATURES"
+  d1_out: "txn_991e68dad37740eeaf3b"
+  d1_in: "txn_f3e2c7738aea4784a619"
+  Liabilities:MWFin:Card:Chase-2559  -40 USD
+  Assets:MWFin:DueFrom:Personal  40 USD
+  Assets:Personal:Bank:BofA-3417  40 USD
+  Liabilities:Personal:DueTo:MWFin  -40 USD
+
+2026-01-01 ! "ARIVE" "ARIVE" #unreviewed #d1-backfill
+  d1_id: "txn_353e2022167349209327"
+  d1_category: "exp_aus_los"
+  Liabilities:MWFin:Card:Chase-2559  -159.97 USD
+  Expenses:MWFin:Uncategorized  159.97 USD
+
+2026-01-01 ! "ZAPIER.COM/CHARGE" "ZAPIER.COM/CHARGE" #unreviewed #d1-backfill
+  d1_id: "txn_d5472b26b95d495ab7f2"
+  d1_category: "exp_software"
+  Liabilities:MWFin:Card:Chase-2559  -29.99 USD
+  Expenses:MWFin:Uncategorized  29.99 USD
+
+2026-01-01 ! "ZAPIER.COM/CHARGE" "ZAPIER.COM/CHARGE" #unreviewed #d1-backfill
+  d1_id: "txn_e2a291c30f414cfc9319"
+  d1_category: "exp_software"
+  Liabilities:MWFin:Card:Chase-2559  -29.99 USD
+  Expenses:MWFin:Uncategorized  29.99 USD
+
+2026-01-01 ! "ARIVE" "ARIVE" #unreviewed #d1-backfill
+  d1_id: "txn_f38dc0a90d424145be05"
+  d1_category: "exp_aus_los"
+  Liabilities:MWFin:Card:Chase-2559  -159.97 USD
+  Expenses:MWFin:Uncategorized  159.97 USD
+
+2026-01-02 ! "NEXTDOOR ADS" "NEXTDOOR ADS" #unreviewed #d1-backfill
+  d1_id: "txn_3d7030a905ea4434a22f"
+  d1_category: "exp_advertising"
+  Liabilities:MWFin:Card:Chase-2559  -155 USD
+  Expenses:MWFin:Uncategorized  155 USD
+
+2026-01-02 ! "Workspace_mw.l" "Workspace_mw.l" #unreviewed #d1-backfill
+  d1_id: "txn_468829edfcef46d2b7e0"
+  d1_category: "exp_software"
+  Liabilities:MWFin:Card:Chase-2559  -50.4 USD
+  Expenses:MWFin:Uncategorized  50.4 USD
+
+2026-01-02 ! "MMI,BONZO,MONITORBASE" "MMI,BONZO,MONITORBASE" #unreviewed #d1-backfill
+  d1_id: "txn_5e15e49df3514edf8030"
+  d1_category: "exp_market_data"
+  Liabilities:MWFin:Card:Chase-2559  -103.29 USD
+  Expenses:MWFin:Uncategorized  103.29 USD
+
+2026-01-02 ! "Workspace_mw.l" "Workspace_mw.l" #unreviewed #d1-backfill
+  d1_id: "txn_64ec7fc5ec89425da898"
+  d1_category: "exp_software"
+  Liabilities:MWFin:Card:Chase-2559  -50.4 USD
+  Expenses:MWFin:Uncategorized  50.4 USD
+
+2026-01-02 ! "NEXTDOOR ADS" "NEXTDOOR ADS" #unreviewed #d1-backfill
+  d1_id: "txn_6c2bf1e8d7674603b7bf"
+  d1_category: "exp_advertising"
+  Liabilities:MWFin:Card:Chase-2559  -155 USD
+  Expenses:MWFin:Uncategorized  155 USD
+
+2026-01-02 ! "MMI,BONZO,MONITORBASE" "MMI,BONZO,MONITORBASE" #unreviewed #d1-backfill
+  d1_id: "txn_715f7fffa8664e339611"
+  d1_category: "exp_market_data"
+  Liabilities:MWFin:Card:Chase-2559  -103.29 USD
+  Expenses:MWFin:Uncategorized  103.29 USD
+
+2026-01-04 ! "AUTOMATIC PAYMENT - THANK" "AUTOMATIC PAYMENT - THANK" #unreviewed #d1-backfill
+  d1_id: "txn_1d911bef9a914620a77e"
+  d1_category: "xfer_cc_payment"
+  Liabilities:MWFin:Card:Chase-2559  66 USD
+  Income:MWFin:Uncategorized  -66 USD
+
+2026-01-04 ! "PREMIUM CREDIT BUREAUOFFI" "PREMIUM CREDIT BUREAUOFFI" #unreviewed #d1-backfill
+  d1_id: "txn_9e7136e6d5ca44b79d80"
+  d1_category: "cogs_credit_reports"
+  Liabilities:MWFin:Card:Chase-2559  -159.14 USD
+  Expenses:MWFin:Uncategorized  159.14 USD
+
+2026-01-04 ! "PREMIUM CREDIT BUREAUOFFI" "PREMIUM CREDIT BUREAUOFFI" #unreviewed #d1-backfill
+  d1_id: "txn_a6ff14ad73854e8e91be"
+  d1_category: "cogs_credit_reports"
+  Liabilities:MWFin:Card:Chase-2559  -159.14 USD
+  Expenses:MWFin:Uncategorized  159.14 USD
+
+2026-01-04 ! "AUTOMATIC PAYMENT - THANK" "AUTOMATIC PAYMENT - THANK" #unreviewed #d1-backfill
+  d1_id: "txn_d6eb8c97579f4c1d84f6"
+  d1_category: "xfer_cc_payment"
+  Liabilities:MWFin:Card:Chase-2559  66 USD
+  Income:MWFin:Uncategorized  -66 USD
+
+2026-01-07 ! "NIC*-DFS BOC-EXEMPTIONS" "NIC*-DFS BOC-EXEMPTIONS" #unreviewed #d1-backfill
+  d1_id: "txn_fc58e8832ee74dd38e38"
+  d1_category: "exp_licenses"
+  Liabilities:MWFin:Card:Chase-2559  -51 USD
+  Expenses:MWFin:Uncategorized  51 USD
+
+2026-01-09 ! "PREMIUM CREDIT BUREAUOFFI" "PREMIUM CREDIT BUREAUOFFI" #unreviewed #d1-backfill
+  d1_id: "txn_1dd3ea01688d48d891cb"
+  d1_category: "cogs_credit_reports"
+  Liabilities:MWFin:Card:Chase-2559  -58 USD
+  Expenses:MWFin:Uncategorized  58 USD
+
+2026-01-09 ! "PURCHASE INTEREST CHARGE" "PURCHASE INTEREST CHARGE" #unreviewed #d1-backfill
+  d1_id: "txn_3931a1447f294a66a315"
+  d1_category: "exp_bank_fees"
+  Liabilities:MWFin:Card:Chase-2559  -77.37 USD
+  Expenses:MWFin:Uncategorized  77.37 USD
+
+2026-01-09 ! "PREMIUM CREDIT BUREAUOFFI" "PREMIUM CREDIT BUREAUOFFI" #unreviewed #d1-backfill
+  d1_id: "txn_5180b078af4345d3b825"
+  d1_category: "cogs_credit_reports"
+  Liabilities:MWFin:Card:Chase-2559  -84 USD
+  Expenses:MWFin:Uncategorized  84 USD
+
+2026-01-09 ! "PURCHASE INTEREST CHARGE" "PURCHASE INTEREST CHARGE" #unreviewed #d1-backfill
+  d1_id: "txn_7774ca6731ca4a5dbb14"
+  d1_category: "exp_bank_fees"
+  Liabilities:MWFin:Card:Chase-2559  -77.37 USD
+  Expenses:MWFin:Uncategorized  77.37 USD
+
+2026-01-09 ! "PREMIUM CREDIT BUREAUOFFI" "PREMIUM CREDIT BUREAUOFFI" #unreviewed #d1-backfill
+  d1_id: "txn_79bfedf882114102ae10"
+  d1_category: "cogs_credit_reports"
+  Liabilities:MWFin:Card:Chase-2559  -58 USD
+  Expenses:MWFin:Uncategorized  58 USD
+
+2026-01-09 ! "PREMIUM CREDIT BUREAUOFFI" "PREMIUM CREDIT BUREAUOFFI" #unreviewed #d1-backfill
+  d1_id: "txn_89e9de39479a48f78356"
+  d1_category: "cogs_credit_reports"
+  Liabilities:MWFin:Card:Chase-2559  -84 USD
+  Expenses:MWFin:Uncategorized  84 USD
+
+2026-01-09 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_8fdefa8452f9442ba407"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -275 USD
+  Expenses:MWFin:Uncategorized  275 USD
+
+2026-01-09 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_be54ecf09bd144c78e11"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -55 USD
+  Expenses:MWFin:Uncategorized  55 USD
+
+2026-01-09 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_db57353a8bf545edb930"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -420 USD
+  Expenses:MWFin:Uncategorized  420 USD
+
+2026-01-09 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_df7ddd9633d14060a4c1"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -420 USD
+  Expenses:MWFin:Uncategorized  420 USD
+
+2026-01-09 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_ea84bf5b102843f19a4b"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -275 USD
+  Expenses:MWFin:Uncategorized  275 USD
+
+2026-01-11 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_0cc73d9126f3438a9a80"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -210 USD
+  Expenses:MWFin:Uncategorized  210 USD
+
+2026-01-11 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_3790d5ea023448a3a1a9"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -210 USD
+  Expenses:MWFin:Uncategorized  210 USD
+
+2026-01-11 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_5979a78724ad4df5b026"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -275 USD
+  Expenses:MWFin:Uncategorized  275 USD
+
+2026-01-11 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_aa27c54a77bc4a17b8c9"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -275 USD
+  Expenses:MWFin:Uncategorized  275 USD
+
+2026-01-12 ! "X CORP. PAID FEATURES" "X CORP. PAID FEATURES" #unreviewed #d1-backfill
+  d1_id: "txn_2a6273978b164500aab1"
+  d1_category: "exp_entertainment"
+  Liabilities:MWFin:Card:Chase-2559  -40 USD
+  Expenses:MWFin:Uncategorized  40 USD
+
+2026-01-12 ! "LinkedIn" "LinkedIn" #unreviewed #d1-backfill
+  d1_id: "txn_68342b38baf34a829ca1"
+  d1_category: "exp_dues"
+  Liabilities:MWFin:Card:Chase-2559  -89.99 USD
+  Expenses:MWFin:Uncategorized  89.99 USD
+
+2026-01-12 ! "LinkedIn" "LinkedIn" #unreviewed #d1-backfill
+  d1_id: "txn_6933c44b6ca346278825"
+  d1_category: "exp_dues"
+  Liabilities:MWFin:Card:Chase-2559  -89.99 USD
+  Expenses:MWFin:Uncategorized  89.99 USD
+
+2026-01-12 ! "NATIONAL ASSOCIATION OF M" "NATIONAL ASSOCIATION OF M" #unreviewed #d1-backfill
+  d1_id: "txn_a7aab93ee9c643f19292"
+  d1_category: "exp_dues"
+  Liabilities:MWFin:Card:Chase-2559  -14.99 USD
+  Expenses:MWFin:Uncategorized  14.99 USD
+
+2026-01-12 ! "NATIONAL ASSOCIATION OF M" "NATIONAL ASSOCIATION OF M" #unreviewed #d1-backfill
+  d1_id: "txn_cc201d91a6f0415496ca"
+  d1_category: "exp_dues"
+  Liabilities:MWFin:Card:Chase-2559  -14.99 USD
+  Expenses:MWFin:Uncategorized  14.99 USD
+
+2026-01-13 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_4ba28e4ebd93461ca522"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -275 USD
+  Expenses:MWFin:Uncategorized  275 USD
+
+2026-01-13 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_c9877efd51a54870a5bf"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -275 USD
+  Expenses:MWFin:Uncategorized  275 USD
+
+2026-01-14 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_5d79d051d5a14375ac16"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -275 USD
+  Expenses:MWFin:Uncategorized  275 USD
+
+2026-01-14 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_cff8d5dbfeec4d61ad4e"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -275 USD
+  Expenses:MWFin:Uncategorized  275 USD
+
+2026-01-15 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_020a1bde505143d9a708"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -330 USD
+  Expenses:MWFin:Uncategorized  330 USD
+
+2026-01-15 ! "HUDEXCHANGE" "HUDEXCHANGE" #unreviewed #d1-backfill
+  d1_id: "txn_04b94a2303f24a56b5ee"
+  d1_category: "exp_education"
+  Liabilities:MWFin:Card:Chase-2559  -399 USD
+  Expenses:MWFin:Uncategorized  399 USD
+
+2026-01-15 ! "HIGHLEVEL INC." "HIGHLEVEL INC." #unreviewed #d1-backfill
+  d1_id: "txn_0cdcb875f92e4b619ef0"
+  d1_category: "exp_crm"
+  Liabilities:MWFin:Card:Chase-2559  -25 USD
+  Expenses:MWFin:Uncategorized  25 USD
+
+2026-01-15 ! "HUDEXCHANGE" "HUDEXCHANGE" #unreviewed #d1-backfill
+  d1_id: "txn_535cd184015d41b98c35"
+  d1_category: "exp_education"
+  Liabilities:MWFin:Card:Chase-2559  -399 USD
+  Expenses:MWFin:Uncategorized  399 USD
+
+2026-01-15 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_c1c31607c2ea48c189f8"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -330 USD
+  Expenses:MWFin:Uncategorized  330 USD
+
+2026-01-16 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_670b3945930443e6b311"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -220 USD
+  Expenses:MWFin:Uncategorized  220 USD
+
+2026-01-16 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_9c05249ecb8448deab58"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -220 USD
+  Expenses:MWFin:Uncategorized  220 USD
+
+2026-01-18 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_05673f06b3894cbe8f55"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -275 USD
+  Expenses:MWFin:Uncategorized  275 USD
+
+2026-01-18 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_8715dc47b59946368603"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -275 USD
+  Expenses:MWFin:Uncategorized  275 USD
+
+2026-01-18 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_995289c603544602bc8b"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -75 USD
+  Expenses:MWFin:Uncategorized  75 USD
+
+2026-01-18 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_e1379c4b4ff74f7c956e"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -75 USD
+  Expenses:MWFin:Uncategorized  75 USD
+
+2026-01-20 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_6fe01d6bf7ab4f1f927d"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -385 USD
+  Expenses:MWFin:Uncategorized  385 USD
+
+2026-01-20 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_8302cb089b6444bf969e"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -385 USD
+  Expenses:MWFin:Uncategorized  385 USD
+
+2026-01-21 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_60a43f3b0d924e49bf3c"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -165 USD
+  Expenses:MWFin:Uncategorized  165 USD
+
+2026-01-21 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_ec80d95432f84dddb86b"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -165 USD
+  Expenses:MWFin:Uncategorized  165 USD
+
+2026-01-22 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_1ebe0062152c45fba6fb"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -275 USD
+  Expenses:MWFin:Uncategorized  275 USD
+
+2026-01-22 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_307bc537ace649cca9c0"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -275 USD
+  Expenses:MWFin:Uncategorized  275 USD
+
+2026-01-23 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_7398493e3b37427c8fe2"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -330 USD
+  Expenses:MWFin:Uncategorized  330 USD
+
+2026-01-23 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_e351ce11e0164dcca792"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -330 USD
+  Expenses:MWFin:Uncategorized  330 USD
+
+2026-01-25 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_31d5883b49e34ac597c1"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -220 USD
+  Expenses:MWFin:Uncategorized  220 USD
+
+2026-01-25 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_79a7b67130ad474e9bbe"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -220 USD
+  Expenses:MWFin:Uncategorized  220 USD
+
+2026-01-26 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_70d4db3c0b7f40c08035"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -110 USD
+  Expenses:MWFin:Uncategorized  110 USD
+
+2026-01-26 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_745d5053893048baa57f"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -110 USD
+  Expenses:MWFin:Uncategorized  110 USD
+
+2026-01-27 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_3234f90394994fd68c66"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -220 USD
+  Expenses:MWFin:Uncategorized  220 USD
+
+2026-01-27 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_e6a36457afdb44048a94"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -220 USD
+  Expenses:MWFin:Uncategorized  220 USD
+
+2026-01-28 ! "HIGHLEVEL AGENCY SUB" "HIGHLEVEL AGENCY SUB" #unreviewed #d1-backfill
+  d1_id: "txn_6d9dd1df84c248b1b977"
+  d1_category: "exp_crm"
+  Liabilities:MWFin:Card:Chase-2559  -97 USD
+  Expenses:MWFin:Uncategorized  97 USD
+
+2026-01-28 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_726939d9583a46dd9e5a"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -220 USD
+  Expenses:MWFin:Uncategorized  220 USD
+
+2026-01-28 ! "HIGHLEVEL AGENCY SUB" "HIGHLEVEL AGENCY SUB" #unreviewed #d1-backfill
+  d1_id: "txn_8971a412f6f540b09249"
+  d1_category: "exp_crm"
+  Liabilities:MWFin:Card:Chase-2559  -97 USD
+  Expenses:MWFin:Uncategorized  97 USD
+
+2026-01-28 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_9c9fd33785fb46c1836d"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -220 USD
+  Expenses:MWFin:Uncategorized  220 USD
+
+2026-01-30 ! "HIGHLEVEL INC." "HIGHLEVEL INC." #unreviewed #d1-backfill
+  d1_id: "txn_e29f22bd12844817a10f"
+  d1_category: "exp_crm"
+  Liabilities:MWFin:Card:Chase-2559  -25 USD
+  Expenses:MWFin:Uncategorized  25 USD
+
+2026-02-01 ! "ZAPIER.COM/CHARGE" "ZAPIER.COM/CHARGE" #unreviewed #d1-backfill
+  d1_id: "txn_3fc482088c07480fa35f"
+  d1_category: "exp_software"
+  Liabilities:MWFin:Card:Chase-2559  -29.99 USD
+  Expenses:MWFin:Uncategorized  29.99 USD
+
+2026-02-01 ! "ARIVE" "ARIVE" #unreviewed #d1-backfill
+  d1_id: "txn_43c00b36a51c4138ab99"
+  d1_category: "exp_aus_los"
+  Liabilities:MWFin:Card:Chase-2559  -159.97 USD
+  Expenses:MWFin:Uncategorized  159.97 USD
+
+2026-02-01 ! "ARIVE" "ARIVE" #unreviewed #d1-backfill
+  d1_id: "txn_6316c19c852b4369b589"
+  d1_category: "exp_aus_los"
+  Liabilities:MWFin:Card:Chase-2559  -159.97 USD
+  Expenses:MWFin:Uncategorized  159.97 USD
+
+2026-02-01 ! "ZAPIER.COM/CHARGE" "ZAPIER.COM/CHARGE" #unreviewed #d1-backfill
+  d1_id: "txn_926e93f2805d4c34bf3a"
+  d1_category: "exp_software"
+  Liabilities:MWFin:Card:Chase-2559  -29.99 USD
+  Expenses:MWFin:Uncategorized  29.99 USD
+
+2026-02-02 ! "MMI,BONZO,MONITORBASE" "MMI,BONZO,MONITORBASE" #unreviewed #d1-backfill
+  d1_id: "txn_1ad90efedfa24419bf1e"
+  d1_category: "exp_market_data"
+  Liabilities:MWFin:Card:Chase-2559  -103.29 USD
+  Expenses:MWFin:Uncategorized  103.29 USD
+
+2026-02-02 ! "Workspace_mw.l" "Workspace_mw.l" #unreviewed #d1-backfill
+  d1_id: "txn_2a3f9d3721e0438f90ab"
+  d1_category: "exp_software"
+  Liabilities:MWFin:Card:Chase-2559  -50.4 USD
+  Expenses:MWFin:Uncategorized  50.4 USD
+
+2026-02-02 ! "MMI,BONZO,MONITORBASE" "MMI,BONZO,MONITORBASE" #unreviewed #d1-backfill
+  d1_id: "txn_37934ac5df734744b9a9"
+  d1_category: "exp_market_data"
+  Liabilities:MWFin:Card:Chase-2559  -103.29 USD
+  Expenses:MWFin:Uncategorized  103.29 USD
+
+2026-02-02 ! "Workspace_mw.l" "Workspace_mw.l" #unreviewed #d1-backfill
+  d1_id: "txn_85042d523d0944a5a258"
+  d1_category: "exp_software"
+  Liabilities:MWFin:Card:Chase-2559  -50.4 USD
+  Expenses:MWFin:Uncategorized  50.4 USD
+
+2026-02-03 ! "PREMIUM CREDIT BUREAUOFFI" "PREMIUM CREDIT BUREAUOFFI" #unreviewed #d1-backfill
+  d1_id: "txn_04269f55e6884229b7ee"
+  d1_category: "cogs_credit_reports"
+  Liabilities:MWFin:Card:Chase-2559  -2478.18 USD
+  Expenses:MWFin:Uncategorized  2478.18 USD
+
+2026-02-03 ! "ACI*NMLS SERVICE FEE" "ACI*NMLS SERVICE FEE" #unreviewed #d1-backfill
+  d1_id: "txn_5198db6ebb1940909e01"
+  d1_category: "exp_nmls"
+  Liabilities:MWFin:Card:Chase-2559  -0.87 USD
+  Expenses:MWFin:Uncategorized  0.87 USD
+
+2026-02-03 ! "PREMIUM CREDIT BUREAUOFFI" "PREMIUM CREDIT BUREAUOFFI" #unreviewed #d1-backfill
+  d1_id: "txn_5f10ebe4b49f4d5bad5a"
+  d1_category: "cogs_credit_reports"
+  Liabilities:MWFin:Card:Chase-2559  -2478.18 USD
+  Expenses:MWFin:Uncategorized  2478.18 USD
+
+2026-02-03 ! "NEXTDOOR ADS" "NEXTDOOR ADS" #unreviewed #d1-backfill
+  d1_id: "txn_60f3e158d3c0453787f2"
+  d1_category: "exp_advertising"
+  Liabilities:MWFin:Card:Chase-2559  -154.89 USD
+  Expenses:MWFin:Uncategorized  154.89 USD
+
+2026-02-03 ! "ACI*NMLS SERVICE FEE" "ACI*NMLS SERVICE FEE" #unreviewed #d1-backfill
+  d1_id: "txn_8e7422ee7c0f4a9690d3"
+  d1_category: "exp_nmls"
+  Liabilities:MWFin:Card:Chase-2559  -0.87 USD
+  Expenses:MWFin:Uncategorized  0.87 USD
+
+2026-02-03 ! "ACI*NMLS PMT" "ACI*NMLS PMT" #unreviewed #d1-backfill
+  d1_id: "txn_ca96fe1f8cff41259da6"
+  d1_category: "exp_nmls"
+  Liabilities:MWFin:Card:Chase-2559  -35 USD
+  Expenses:MWFin:Uncategorized  35 USD
+
+2026-02-03 ! "NEXTDOOR ADS" "NEXTDOOR ADS" #unreviewed #d1-backfill
+  d1_id: "txn_f8232458b29a4db3bb87"
+  d1_category: "exp_advertising"
+  Liabilities:MWFin:Card:Chase-2559  -154.89 USD
+  Expenses:MWFin:Uncategorized  154.89 USD
+
+2026-02-04 ! "AUTOMATIC PAYMENT - THANK" "AUTOMATIC PAYMENT - THANK" #unreviewed #d1-backfill
+  d1_id: "txn_0ee1be45f83049afb95a"
+  d1_category: "xfer_cc_payment"
+  Liabilities:MWFin:Card:Chase-2559  137 USD
+  Income:MWFin:Uncategorized  -137 USD
+
+2026-02-04 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_42fa588bd7134cc1aa1f"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -75 USD
+  Expenses:MWFin:Uncategorized  75 USD
+
+2026-02-04 ! "AUTOMATIC PAYMENT - THANK" "AUTOMATIC PAYMENT - THANK" #unreviewed #d1-backfill
+  d1_id: "txn_7b3bc9835b6d44e8960d"
+  d1_category: "xfer_cc_payment"
+  Liabilities:MWFin:Card:Chase-2559  137 USD
+  Income:MWFin:Uncategorized  -137 USD
+
+2026-02-04 ! "BOOST PROGRAM" "BOOST PROGRAM" #unreviewed #d1-backfill
+  d1_id: "txn_b9dd3f67e3f04d5b8a68"
+  d1_category: "exp_lead_gen"
+  Liabilities:MWFin:Card:Chase-2559  -75 USD
+  Expenses:MWFin:Uncategorized  75 USD
+
+2026-02-08 ! "Payment Thank You - Web" "Payment Thank You - Web" #unreviewed #d1-backfill
+  d1_id: "txn_759708b355584e0c887a"
+  d1_category: "xfer_cc_payment"
+  Liabilities:MWFin:Card:Chase-2559  500 USD
+  Income:MWFin:Uncategorized  -500 USD
+
+2026-02-08 ! "Payment Thank You - Web" "Payment Thank You - Web" #unreviewed #d1-backfill
+  d1_id: "txn_90c9dd7343bf49e4843b"
+  d1_category: "xfer_cc_payment"
+  Liabilities:MWFin:Card:Chase-2559  500 USD
+  Income:MWFin:Uncategorized  -500 USD
+
+2026-02-10 ! "PURCHASE INTEREST CHARGE" "PURCHASE INTEREST CHARGE" #unreviewed #d1-backfill
+  d1_id: "txn_8f173bcdfe9d4520aea7"
+  d1_category: "exp_bank_fees"
+  Liabilities:MWFin:Card:Chase-2559  -201.35 USD
+  Expenses:MWFin:Uncategorized  201.35 USD
+
+2026-02-10 ! "PURCHASE INTEREST CHARGE" "PURCHASE INTEREST CHARGE" #unreviewed #d1-backfill
+  d1_id: "txn_beda6556a1bc4ec385b7"
+  d1_category: "exp_bank_fees"
+  Liabilities:MWFin:Card:Chase-2559  -201.35 USD
+  Expenses:MWFin:Uncategorized  201.35 USD
+
+2026-02-15 ! "HUDEXCHANGE" "HUDEXCHANGE" #unreviewed #d1-backfill
+  d1_id: "txn_1976a0cabe1842868448"
+  d1_category: "exp_education"
+  Liabilities:MWFin:Card:Chase-2559  -399 USD
+  Expenses:MWFin:Uncategorized  399 USD
+
+2026-02-15 ! "HUDEXCHANGE" "HUDEXCHANGE" #unreviewed #d1-backfill
+  d1_id: "txn_9e392bf6b1284ad3829f"
+  d1_category: "exp_education"
+  Liabilities:MWFin:Card:Chase-2559  -399 USD
+  Expenses:MWFin:Uncategorized  399 USD
+
+2026-02-22 ! "PropertyRecs.com" "PropertyRecs.com" #unreviewed #d1-backfill
+  d1_id: "txn_77d6558771244d6cadd8"
+  d1_category: "exp_market_data"
+  Liabilities:MWFin:Card:Chase-2559  -9.95 USD
+  Expenses:MWFin:Uncategorized  9.95 USD
+
+2026-02-22 ! "PropertyRecs.com" "PropertyRecs.com" #unreviewed #d1-backfill
+  d1_id: "txn_ca68410b4e054695a2cd"
+  d1_category: "exp_market_data"
+  Liabilities:MWFin:Card:Chase-2559  -1 USD
+  Expenses:MWFin:Uncategorized  1 USD
+
+2026-02-22 ! "PropertyRecs.com" "PropertyRecs.com" #unreviewed #d1-backfill
+  d1_id: "txn_f1ea23c4fdeb4e9daf67"
+  d1_category: "exp_market_data"
+  Liabilities:MWFin:Card:Chase-2559  -7 USD
+  Expenses:MWFin:Uncategorized  7 USD
+
+2026-02-22 ! "PropertyRecs.com" "PropertyRecs.com" #unreviewed #d1-backfill
+  d1_id: "txn_fd9c2f3f64f44f54837b"
+  d1_category: "exp_market_data"
+  Liabilities:MWFin:Card:Chase-2559  -9.95 USD
+  Expenses:MWFin:Uncategorized  9.95 USD
+
+2026-03-01 ! "ZAPIER.COM/CHARGE" "ZAPIER.COM/CHARGE" #unreviewed #d1-backfill
+  d1_id: "txn_02672c89543d423c9675"
+  d1_category: "exp_software"
+  Liabilities:MWFin:Card:Chase-2559  -29.99 USD
+  Expenses:MWFin:Uncategorized  29.99 USD
+
+2026-03-01 ! "ZAPIER.COM/CHARGE" "ZAPIER.COM/CHARGE" #unreviewed #d1-backfill
+  d1_id: "txn_16a07b5d218746928cc7"
+  d1_category: "exp_software"
+  Liabilities:MWFin:Card:Chase-2559  -29.99 USD
+  Expenses:MWFin:Uncategorized  29.99 USD
+
+2026-03-01 ! "Payment Thank You - Web" "Payment Thank You - Web" #unreviewed #d1-backfill #transfer-candidate
+  d1_id: "txn_232588481fee444eb920"
+  d1_category: "xfer_cc_payment"
+  Liabilities:MWFin:Card:Chase-2559  1000 USD
+  Income:MWFin:Uncategorized  -1000 USD
+
+2026-03-01 ! "Payment Thank You - Web" "Payment Thank You - Web" #unreviewed #d1-backfill #transfer-candidate
+  d1_id: "txn_8477d83d896f4523a69a"
+  d1_category: "xfer_cc_payment"
+  Liabilities:MWFin:Card:Chase-2559  1000 USD
+  Income:MWFin:Uncategorized  -1000 USD
+
+2026-03-01 ! "ARIVE" "ARIVE" #unreviewed #d1-backfill
+  d1_id: "txn_99eec5405c0446dd9b51"
+  d1_category: "exp_aus_los"
+  Liabilities:MWFin:Card:Chase-2559  -26.48 USD
+  Expenses:MWFin:Uncategorized  26.48 USD
+
+2026-03-01 ! "ARIVE" "ARIVE" #unreviewed #d1-backfill
+  d1_id: "txn_f1e2a3162af941d99c79"
+  d1_category: "exp_aus_los"
+  Liabilities:MWFin:Card:Chase-2559  -26.48 USD
+  Expenses:MWFin:Uncategorized  26.48 USD
+
+2026-03-02 ! "Workspace_mw.l" "Workspace_mw.l" #unreviewed #d1-backfill
+  d1_id: "txn_353a487ac685455bba9f"
+  d1_category: "exp_software"
+  Liabilities:MWFin:Card:Chase-2559  -50.4 USD
+  Expenses:MWFin:Uncategorized  50.4 USD
+
+2026-03-02 ! "MMI,BONZO,MONITORBASE" "MMI,BONZO,MONITORBASE" #unreviewed #d1-backfill
+  d1_id: "txn_5f76387d482d4c58aace"
+  d1_category: "exp_market_data"
+  Liabilities:MWFin:Card:Chase-2559  -103.29 USD
+  Expenses:MWFin:Uncategorized  103.29 USD
+
+2026-03-02 ! "Workspace_mw.l" "Workspace_mw.l" #unreviewed #d1-backfill
+  d1_id: "txn_b68531fcf04f48198fe8"
+  d1_category: "exp_software"
+  Liabilities:MWFin:Card:Chase-2559  -50.4 USD
+  Expenses:MWFin:Uncategorized  50.4 USD
+
+2026-03-02 ! "MMI,BONZO,MONITORBASE" "MMI,BONZO,MONITORBASE" #unreviewed #d1-backfill
+  d1_id: "txn_f891249343bd45889045"
+  d1_category: "exp_market_data"
+  Liabilities:MWFin:Card:Chase-2559  -103.29 USD
+  Expenses:MWFin:Uncategorized  103.29 USD
+
+2026-03-03 ! "PREMIUM CREDIT BUREAUOFFI" "PREMIUM CREDIT BUREAUOFFI" #unreviewed #d1-backfill
+  d1_id: "txn_36a1dc18fa3843fb94d2"
+  d1_category: "cogs_credit_reports"
+  Liabilities:MWFin:Card:Chase-2559  -332.69 USD
+  Expenses:MWFin:Uncategorized  332.69 USD
+
+2026-03-03 ! "PREMIUM CREDIT BUREAUOFFI" "PREMIUM CREDIT BUREAUOFFI" #unreviewed #d1-backfill
+  d1_id: "txn_4fa1e6869aba4c8aaffc"
+  d1_category: "cogs_credit_reports"
+  Liabilities:MWFin:Card:Chase-2559  -332.69 USD
+  Expenses:MWFin:Uncategorized  332.69 USD
+
+2026-03-03 ! "NEXTDOOR ADS" "NEXTDOOR ADS" #unreviewed #d1-backfill
+  d1_id: "txn_8e8c03d08a494166ae5c"
+  d1_category: "exp_advertising"
+  Liabilities:MWFin:Card:Chase-2559  -85.66 USD
+  Expenses:MWFin:Uncategorized  85.66 USD
+
+2026-03-03 ! "NEXTDOOR ADS" "NEXTDOOR ADS" #unreviewed #d1-backfill
+  d1_id: "txn_dd2a26d62a48474ebc6d"
+  d1_category: "exp_advertising"
+  Liabilities:MWFin:Card:Chase-2559  -85.66 USD
+  Expenses:MWFin:Uncategorized  85.66 USD
+
+2026-03-08 ! "PAYYOURSELFBACK CREDIT" "PAYYOURSELFBACK CREDIT" #unreviewed #d1-backfill
+  d1_id: "txn_7d5ca6a7c0d245faa230"
+  d1_category: "xfer_cc_payment"
+  Liabilities:MWFin:Card:Chase-2559  550.91 USD
+  Income:MWFin:Uncategorized  -550.91 USD
+
+2026-03-10 ! "PURCHASE INTEREST CHARGE" "PURCHASE INTEREST CHARGE" #unreviewed #d1-backfill
+  d1_id: "txn_028f0da592d245bab97f"
+  d1_category: "exp_bank_fees"
+  Liabilities:MWFin:Card:Chase-2559  -234.14 USD
+  Expenses:MWFin:Uncategorized  234.14 USD
+
+2026-03-31 ! "Payment Thank You - Web" "Payment Thank You - Web" #unreviewed #d1-backfill
+  d1_id: "txn_65a60aab6084452db133"
+  d1_category: "xfer_cc_payment"
+  Liabilities:MWFin:Card:Chase-2559  2500 USD
+  Income:MWFin:Uncategorized  -2500 USD
+
+2026-04-01 ! "ZAPIER.COM/CHARGE" "ZAPIER.COM/CHARGE" #unreviewed #d1-backfill
+  d1_id: "txn_07a242fb6268456fa8f9"
+  d1_category: "exp_software"
+  Liabilities:MWFin:Card:Chase-2559  -29.99 USD
+  Expenses:MWFin:Uncategorized  29.99 USD
+
+2026-04-01 ! "ARIVE" "ARIVE" #unreviewed #d1-backfill
+  d1_id: "txn_eaf763af413b494eaa11"
+  d1_category: "exp_aus_los"
+  Liabilities:MWFin:Card:Chase-2559  -79.99 USD
+  Expenses:MWFin:Uncategorized  79.99 USD
+
+2026-04-02 ! "MMI,BONZO,MONITORBASE" "MMI,BONZO,MONITORBASE" #unreviewed #d1-backfill
+  d1_id: "txn_685e2e2ccf584c098bdd"
+  d1_category: "exp_market_data"
+  Liabilities:MWFin:Card:Chase-2559  -103.29 USD
+  Expenses:MWFin:Uncategorized  103.29 USD
+
+2026-04-02 ! "Workspace_mw.l" "Workspace_mw.l" #unreviewed #d1-backfill
+  d1_id: "txn_a08572a24c75454a9150"
+  d1_category: "exp_software"
+  Liabilities:MWFin:Card:Chase-2559  -50.4 USD
+  Expenses:MWFin:Uncategorized  50.4 USD
+
+2026-04-03 ! "PREMIUM CREDIT BUREAUOFFI" "PREMIUM CREDIT BUREAUOFFI" #unreviewed #d1-backfill
+  d1_id: "txn_b5917eca57004b058a23"
+  d1_category: "cogs_credit_reports"
+  Liabilities:MWFin:Card:Chase-2559  -259.05 USD
+  Expenses:MWFin:Uncategorized  259.05 USD
+
+2026-04-05 ! "HUDEXCHANGE" "HUDEXCHANGE" #unreviewed #d1-backfill
+  d1_id: "txn_da5b50a940f84212bc75"
+  d1_category: "exp_education"
+  Liabilities:MWFin:Card:Chase-2559  -399 USD
+  Expenses:MWFin:Uncategorized  399 USD
+
+2026-04-07 ! "PropertyRecs.com" "PropertyRecs.com" #unreviewed #d1-backfill
+  d1_id: "txn_eb576604b48a4169a139"
+  d1_category: "exp_market_data"
+  Liabilities:MWFin:Card:Chase-2559  -3.28 USD
+  Expenses:MWFin:Uncategorized  3.28 USD
+
+2026-04-10 ! "PURCHASE INTEREST CHARGE" "PURCHASE INTEREST CHARGE" #unreviewed #d1-backfill
+  d1_id: "txn_f389c5e6852a417b96ef"
+  d1_category: "exp_bank_fees"
+  Liabilities:MWFin:Card:Chase-2559  -234.85 USD
+  Expenses:MWFin:Uncategorized  234.85 USD
+
+2026-04-15 ! "HUDEXCHANGE" "HUDEXCHANGE" #unreviewed #d1-backfill
+  d1_id: "txn_e6f4397801b74f1088bd"
+  d1_category: "exp_education"
+  Liabilities:MWFin:Card:Chase-2559  -299 USD
+  Expenses:MWFin:Uncategorized  299 USD
+
+2026-04-22 ! "PropertyRecs.com" "PropertyRecs.com" #unreviewed #d1-backfill
+  d1_id: "txn_d91e37ac4aa34308824d"
+  d1_category: "exp_market_data"
+  Liabilities:MWFin:Card:Chase-2559  -9.95 USD
+  Expenses:MWFin:Uncategorized  9.95 USD
+
+2026-05-01 ! "ARIVE" "ARIVE" #unreviewed #d1-backfill
+  d1_id: "txn_6dba83b7e5b8406f880e"
+  d1_category: "exp_aus_los"
+  Liabilities:MWFin:Card:Chase-2559  -79.99 USD
+  Expenses:MWFin:Uncategorized  79.99 USD
+
+2026-05-01 ! "ZAPIER.COM/CHARGE" "ZAPIER.COM/CHARGE" #unreviewed #d1-backfill
+  d1_id: "txn_e1dee1a130f643d7adb1"
+  d1_category: "exp_software"
+  Liabilities:MWFin:Card:Chase-2559  -29.99 USD
+  Expenses:MWFin:Uncategorized  29.99 USD
+
+2026-05-03 ! "Workspace_mw.l" "Workspace_mw.l" #unreviewed #d1-backfill
+  d1_id: "txn_75336bd0bc4a4591b9f8"
+  d1_category: "exp_software"
+  Liabilities:MWFin:Card:Chase-2559  -50.4 USD
+  Expenses:MWFin:Uncategorized  50.4 USD
+
+2026-05-03 ! "PREMIUM CREDIT BUREAUOFFI" "PREMIUM CREDIT BUREAUOFFI" #unreviewed #d1-backfill
+  d1_id: "txn_9f7d979f1c6946a1a0be"
+  d1_category: "cogs_credit_reports"
+  Liabilities:MWFin:Card:Chase-2559  -1371.45 USD
+  Expenses:MWFin:Uncategorized  1371.45 USD
+
+2026-05-03 ! "MMI,BONZO,MONITORBASE" "MMI,BONZO,MONITORBASE" #unreviewed #d1-backfill
+  d1_id: "txn_cf6a2f5ee299424fb836"
+  d1_category: "exp_market_data"
+  Liabilities:MWFin:Card:Chase-2559  -103.29 USD
+  Expenses:MWFin:Uncategorized  103.29 USD
+
+2026-05-04 ! "AUTOMATIC PAYMENT - THANK" "AUTOMATIC PAYMENT - THANK" #unreviewed #d1-backfill
+  d1_id: "txn_4e3fc5bc516f4545a72d"
+  d1_category: "xfer_cc_payment"
+  Liabilities:MWFin:Card:Chase-2559  330 USD
+  Income:MWFin:Uncategorized  -330 USD
+
+2026-05-08 ! "PropertyRecs.com" "PropertyRecs.com" #unreviewed #d1-backfill
+  d1_id: "txn_7db28bcd0771441a8b92"
+  d1_category: "exp_market_data"
+  Liabilities:MWFin:Card:Chase-2559  -9.95 USD
+  Expenses:MWFin:Uncategorized  9.95 USD
+
+2026-05-10 ! "PURCHASE INTEREST CHARGE" "PURCHASE INTEREST CHARGE" #unreviewed #d1-backfill
+  d1_id: "txn_38086259e61d430795ad"
+  d1_category: "exp_bank_fees"
+  Liabilities:MWFin:Card:Chase-2559  -195.11 USD
+  Expenses:MWFin:Uncategorized  195.11 USD

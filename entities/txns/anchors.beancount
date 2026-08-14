@@ -23,7 +23,6 @@
 2025-01-01 pad Liabilities:MWFin:Card:Chase-2559 Equity:MWFin:Opening-Balances
 2026-08-13 balance Liabilities:MWFin:Card:Chase-2559  -12960.96 USD
 
-2025-01-01 pad Liabilities:Personal:Card:Amex-Hilton-1000 Equity:Personal:Opening-Balances
 2026-08-14 balance Liabilities:Personal:Card:Amex-Hilton-1000  -30.60 USD
 
 2025-01-01 pad Liabilities:Personal:Card:Amex-Platinum-1008 Equity:Personal:Opening-Balances
@@ -44,6 +43,7 @@
 
 2026-08-15 balance Liabilities:Personal:Card:CapOne-9578  -80.00 USD
 
+2025-01-01 pad Liabilities:Personal:Card:CapOne-9993 Equity:Personal:Opening-Balances
 2026-08-15 balance Liabilities:Personal:Card:CapOne-9993  0.00 USD
 
 2025-01-01 pad Liabilities:Personal:Card:CareCredit-9175 Equity:Personal:Opening-Balances
