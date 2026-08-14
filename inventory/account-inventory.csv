@@ -1,16 +1,38 @@
-institution,account_name,last4,type,entity_guess,evidence,simplefin_connects,notes
-Mercury,Business checking (per entity? confirm which entities have their own),,bank,MULTIPLE - confirm,Vault: Mercury is the group bank; per-entity breakdown never recorded,,Native API also available as a feed lane
-Chase,Ink Business Unlimited Visa,2559,credit card,CONFIRM (business - which entity?),Statement emails to web@mw.loans; autopay on; ~$13k balance Aug 2026,,
-Chase,Business Complete Checking (BUS COMPLETE CHK),2320,bank,CONFIRM (business - which entity?),Statement + transfer emails; feeds transfers to BofA 3417,,Already shared to Stripe + Rocket via Chase Connected Banking
-Bank of America,Web BOA,3417,bank,Personal (guess),Chase transfer destination "Web BOA",,
-Charles Schwab,Futures account,104,investment,Personal (guess),Monthly futures statement emails,,Investment accts may stay out of scope for v1 - your call
-NewRez,Mortgage,7885,mortgage,CONFIRM - statement addressed to Asela Acosta,Billing statement emails arrive at web@mw.loans,,Whose property/mortgage is this?
-PayPal,PayPal (account name: Alfred Seed),,payment,CONFIRM,Legal-agreement email to web@mw.loans,,Own transaction API; solved independently of SimpleFIN
-Stripe,Merchant account,,payment processor,CONFIRM (which entity receives payouts?),Chase data-sharing confirmation Jul 2026,,Revenue lane - payouts land in a bank acct
-Amazon store card,,,credit card,,Kickoff doc known-problem list,,Issuer Synchrony - test explicitly in SimpleFIN
-Costco card,,,credit card,,Kickoff doc known-problem list,,Issuer Citi - test explicitly
-Home Depot card,,,credit card,,Kickoff doc known-problem list,,Issuer Citi Retail Services - test explicitly
-CareCredit,,,credit card,,Kickoff doc known-problem list,,Issuer Synchrony - test explicitly
-,,,,,,,"~20 credit cards total per kickoff doc - add remaining rows: institution, last4, entity"
-,,,,,,,1-2 mortgage accounts per kickoff doc - add rows
-,,,,,,,Several bank accounts per kickoff doc - add rows
+status,entity,owner,institution,account_name,last4,account_id,currency,balance,balance_date,connects,needs_reauth,feed_lane,beancount_account,notes
+OK,MWDev,,Wells Fargo,BUSINESS CHECKING ...8627 (8627),8627,ACT-ff63f10c-0c72-476c-9674-e17f34eaa68a,USD,30144.68,1786658684,yes,,simplefin,Assets:MWDev:Bank:WF-8627,
+OK,Personal,mary,Wells Fargo,EVERYDAY CHECKING ...2443 (2443),2443,ACT-65e01920-4963-4d55-971b-c67614f87f70,USD,3109.10,1786658684,yes,,simplefin,Assets:Personal:Bank:WF-2443,
+OK,MWRealty,,Wells Fargo,BUSINESS CHECKING ...9114 (9114),9114,ACT-bb744577-1b33-4f3e-afe0-ff5a40e3d8ba,USD,44854.14,1786658684,yes,,simplefin,Assets:MWRealty:Bank:WF-9114,
+OK,Personal,mary,Wells Fargo,EVERYDAY CHECKING ...2196 (2196),2196,ACT-321dca1a-0f53-4fd0-a95f-ca1e2006ea36,USD,84.21,1786658684,yes,,simplefin,Assets:Personal:Bank:WF-2196,
+OK,Personal,mary,Wells Fargo,WELLS FARGO REFLECT VISA�� CARD ...9832 (9832),9832,ACT-d40eb6d0-00a5-49c1-81c5-c492521040a4,USD,-2225.00,1786658684,yes,,simplefin,Liabilities:Personal:Card:WF-Reflect-9832,
+OK,Personal,mary,Wells Fargo,PLATINUM CARD ...3463 (3463),3463,ACT-f1454bd0-9a0e-490f-8525-f441ab6d86df,USD,-3998.45,1786658684,yes,,simplefin,Liabilities:Personal:Card:WF-Platinum-3463,
+OK,Personal,webster,Bank of America,Customized Cash Rewards Visa Signature- 6918 (6918),6918,ACT-cdbfefd3-71a9-49cc-8cd2-97467e9d93f0,USD,-10528.19,1786535490,yes,,simplefin,Liabilities:Personal:Card:BofA-CCR-6918,
+OK,Personal,webster,Bank of America,Adv SafeBalance Banking- 3417 (3417),3417,ACT-a64f3781-0be4-4621-8cdc-eca23f6d8c24,USD,22006.33,1786535490,yes,,simplefin,Assets:Personal:Bank:BofA-3417,"Gmail: your ""Web BOA"""
+OK,MWFin,,Chase Bank,A. SEED (2559),2559,ACT-ae237413-900d-4a63-b3ce-e95c060e146e,USD,-12960.96,1786535489,yes,,simplefin,Liabilities:MWFin:Card:Chase-2559,Ink Business Unlimited
+OK,MWFin,,Chase Bank,BUS COMPLETE CHK (2320),2320,ACT-ae4587d0-dcaa-4f47-b8fb-baabca888cb4,USD,3258.12,1786535489,yes,,simplefin,Assets:MWFin:Bank:Chase-2320,EFTPS doc says 2320 = MW FINANCIAL LLC
+OK,Personal,webster,Home Depot Credit Card by Citibank,The Home Depot® Consumer Credit Card-9592 (9592),9592,ACT-be8d673d-f258-4b48-9387-1ea271fbdbfc,USD,0.00,1786535487,yes,,simplefin,Liabilities:Personal:Card:HomeDepot-9592,Suncorps/KML materials?
+OK,Personal,webster,Chase Bank,Chase Sapphire Preferred (1631),1631,ACT-7d598ef1-9cf7-4a39-9133-c965a7de248a,USD,-9351.89,1786535488,yes,,simplefin,Liabilities:Personal:Card:Chase-Sapphire-1631,
+OK,Personal,webster,American Express,Platinum Card® (1008),1008,ACT-27228184-a16e-401b-bacd-d06545e14faf,USD,-15028.63,1786651371,yes,,simplefin,Liabilities:Personal:Card:Amex-Platinum-1008,
+OK,Personal,webster,American Express,Hilton Honors Card (1000),1000,ACT-b2538b01-595a-4bd6-b984-2acad7da41cf,USD,-30.60,1786651371,yes,,simplefin,Liabilities:Personal:Card:Amex-Hilton-1000,
+OK,Personal,webster,Capital One,Quicksilver (9578),9578,ACT-f289526e-442f-4cf7-ad05-2c27303f5993,USD,-80.00,1786668888,yes,,simplefin,Liabilities:Personal:Card:CapOne-9578,
+OK,Personal,webster,Capital One,Quicksilver (9993),9993,ACT-a91c5ec1-0e02-476c-8ec9-d2647c08144f,USD,0.00,1786668888,yes,,simplefin,Liabilities:Personal:Card:CapOne-9993,
+OK,Personal,webster,Capital One,Quicksilver (1456),1456,ACT-127db452-a001-4e74-b282-a56536e054fe,USD,0.00,1786668888,yes,,simplefin,Liabilities:Personal:Card:CapOne-1456,
+OK,Personal,webster,M&T Bank,M&T Mortgage (8801) (8801),8801,ACT-15a453b5-6db5-4622-9699-6b7f96a1f3c6,USD,-287829.82,1786541514,yes,,simplefin,Liabilities:Personal:Mortgage:MT-8801,
+OK,Personal,webster,CareCredit,CARECREDIT / SYNCHRONY BANK (9175),9175,ACT-1789c4b1-a1b6-403e-aee6-9062deec4398,USD,-3534.21,1786646852,yes,,simplefin,Liabilities:Personal:Card:CareCredit-9175,
+OK,Personal,webster,CareCredit,Prime Store Card (1042),1042,ACT-9a413bbd-727c-4a85-b904-c8268e6af1e7,USD,-6216.28,1786646852,yes,,simplefin,Liabilities:Personal:Card:CareCredit-Prime-1042,
+OK,Personal,webster,Credit One Bank,Visa (5992),5992,ACT-e446d1e3-de29-4215-a8cf-b1bcc3922c2b,USD,-5.00,1786652783,yes,,simplefin,Liabilities:Personal:Card:CreditOne-5992,
+OK,Personal,webster,Credit One Bank,Visa (7798),7798,ACT-4c6abf0e-9831-41de-9e79-5d2d903ca22c,USD,-16.91,1786652783,yes,,simplefin,Liabilities:Personal:Card:CreditOne-7798,
+OK,Personal,webster,Credit One Bank,Amex (9505),9505,ACT-7c0540d6-c040-498b-8f4c-21355a5434f2,USD,0.00,1786652783,yes,,simplefin,Liabilities:Personal:Card:CreditOne-9505,
+OK,Personal,webster,Target Credit Card,Target CircleCard (8187),8187,ACT-390ef347-b199-4fe2-83b0-26c6f40be51a,USD,0.00,1786656876,yes,,simplefin,Liabilities:Personal:Card:Target-8187,
+OK,Personal,webster,Best Buy Credit Card by Citibank,My Best Buy® Visa® Card-1870 (1870),1870,ACT-debdd3f6-3a75-4cf7-8600-45d76fc75edd,USD,0.00,1786535488,yes,,simplefin,Liabilities:Personal:Card:BestBuy-1870,
+OK,Personal,webster,Caesars Rewards Visa Credit Card,Visa® Credit Card (0289),0289,ACT-fee91081-4ba0-4294-9a03-63dd479b1a92,USD,-6038.98,1786535502,yes,,simplefin,Liabilities:Personal:Card:Caesars-0289,
+OK,Personal,webster,Wayfair Credit Card (Citi),Wayfair Mastercard-7948 (7948),7948,ACT-2550c5b8-9615-49c5-bf9c-119516351f8d,USD,-7425.52,1786618173,yes,,simplefin,Liabilities:Personal:Card:Wayfair-7948,furnishings - rental?
+OK,Personal,webster,Costco Credit Card,Costco Anywhere Visa® Card by Citi-2843 (2843),2843,ACT-534a4d47-b941-460b-a8e2-46c2129bb89c,USD,-6110.01,1786609402,yes,,simplefin,Liabilities:Personal:Card:Costco-2843,
+OK,Personal,webster,Apple Card (Updated Monthly),Webster,,ACT-59e70ca4-cf6e-4739-8155-db0252aaf720,USD,-15.97,1786635813,yes,,simplefin,Liabilities:Personal:Card:AppleCard,
+OK,Personal,mary,Wells Fargo,EVERYDAY CHECKING ...2443 (2443),2443,ACT-3bd1adfa-76a6-4820-9a80-627888a7f1af,USD,209.10,1786541298,yes,,simplefin,Assets:Personal:Bank:WF-2443,
+NEW_NEEDS_ANSWER,,,Wells Fargo,PLATINUM CARD ...4965 (4965),4965,ACT-3b08acc7-e262-4086-98ac-81d564a8de3c,USD,-2.99,1786541298,yes,,simplefin,,NEW since Webster's sheet - whose is it?
+NEW_NEEDS_ANSWER,,,Discover Credit Card,Alfred (6368),6368,ACT-7040f1d7-4524-4f4a-b494-6a52dccd037c,USD,-8758.99,1786541425,yes,,simplefin,,NEW since Webster's sheet - whose is it?
+MANUAL_LANE,Personal,webster,Amazon Store Card,,,,USD,,,no,,statement-parse,Liabilities:Personal:Card:AmazonStore,not connected - statement-parse instead
+MANUAL_LANE,Personal,webster,PayPal,,,,USD,,,no,,statement-parse,Assets:Personal:Bank:PayPal,not connected - use PayPal API separately
+NEEDS_ANSWER,,,Mercury,Business checking (which entities?),,,USD,,,no,,TBD - native Mercury API,,"Old inventory says group bank, per-entity breakdown unknown"
+NEEDS_ANSWER,,,Charles Schwab,Futures account,104,,USD,,,no,,TBD - maybe out of scope v1,,Investment acct - Webster to confirm in/out of scope
+NEEDS_ANSWER,,,Stripe,Merchant account,,,USD,,,no,,Stripe reports,,Which entity receives payouts?

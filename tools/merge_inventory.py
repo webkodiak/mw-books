@@ -121,7 +121,8 @@ def main(survey_path, answers_path, out_path):
     out, used = [], set()
     for s in survey:
         s_inst, s_name = norm(s.get("institution")), norm(s.get("account_name"))
-        digits = re.findall(r"\d{4}", (s.get("account_name") or "") + " " + (s.get("account_id") or ""))
+        name_digits = re.findall(r"\d{4}", s.get("account_name") or "")
+        digits = name_digits  # only the visible account name carries a real last4
         match = None
         for d in digits:
             match = by_last4.get((s_inst, d))
@@ -139,8 +140,14 @@ def main(survey_path, answers_path, out_path):
                      if an == s_name and (ai in s_inst or s_inst in ai)]
             if len(cands) == 1:
                 match = cands[0]
-        last4 = (match.get("last4").strip() if match else
-                 (digits[-1] if digits else ""))
+        if not match:
+            # last resort: only one unmatched answer row at this institution
+            cands = [a for a in answers if id(a) not in used and norm(a["institution"])
+                     and (norm(a["institution"]) in s_inst or s_inst in norm(a["institution"]))]
+            if len(cands) == 1:
+                match = cands[0]
+        last4 = ((match.get("last4") or "").strip() if match else "") or \
+                (name_digits[-1] if name_digits else "")
         answer = match.get("YOUR_ANSWER_whose_is_it", "") if match else ""
         entity, owner = entity_of(answer)
         status = "OK" if match and entity and not entity.startswith("CHECK") else \
