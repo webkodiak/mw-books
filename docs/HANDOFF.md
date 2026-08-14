@@ -36,13 +36,23 @@ Start any new chat by reading this file. It supersedes older kickoff notes.
   never reached. That is the "pre-history months" half of Next-steps §5,
   pre-solved: ingest from `data/d1-backup/` (already normalized, even
   categorized) instead of parsing statements for those months. Unmatched rows:
-  `inventory/d1-crosscheck-unmatched-2026-08-14.csv`. Caveats: nothing for
-  2025 (statements still needed there), business accounts not covered, and
-  three cards in the backup have no ledger account yet (Discover 6368 +
-  WF Platinum 4965 = open flags 1–2; CapOne Quicksilver 9993, near-dead,
-  3 txns). Evidence for flag 2: Discover 6368 carries Anthropic, Real Geeks,
-  and HighLevel subscriptions — Webster-profile business-tool spend on a
-  personal-name card; still needs his word on whose it is.
+  `inventory/d1-crosscheck-unmatched-2026-08-14.csv`.
+  **BACKFILL INGESTED same day** via `tools/ingest_d1_backup.py` (re-runs are
+  no-ops; D1 ids live in `data/ingest_state.json` alongside SimpleFIN ids):
+  **935 entries** — 30 auto-matched transfer pairs (2 cross-entity with IOU
+  legs, Personal→MWFin card payments on Chase-2559) + **905 to the review
+  queue** (`#unreviewed #d1-backfill`, each carrying `d1_id` and the app's
+  old category as `d1_category` — a hint for review, not a booking).
+  `bean-check` clean. Review queue now ~1,980. Anchors: CapOne-9993 gained
+  its pad; Amex-Hilton-1000's pad removed (history now complete from account
+  opening — pad was unused). Caveats stand: nothing for 2025 (statements
+  still needed there), business accounts not covered, and 72 rows for the
+  two flag cards remain UNINGESTED in the backup pending Webster's answer
+  (Discover 6368: 58 txns + WF Platinum 4965: 14 = open flags 1–2 — once
+  answered, open the accounts in the inventory and re-run the tool; it will
+  pick up exactly those 72). Evidence for flag 2: Discover 6368 carries
+  Anthropic, Real Geeks, and HighLevel subscriptions — Webster-profile
+  business-tool spend on a personal-name card; still needs his word.
 - Books start date: **2025-01-01** (Webster's call). Opening balances: Claude
   derives from feed history, Webster confirms every number (nothing locked yet).
 - Inventory: `inventory/account-inventory.csv` — 36 rows, final except 5 flags
