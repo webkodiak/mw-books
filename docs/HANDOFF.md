@@ -27,6 +27,22 @@ Start any new chat by reading this file. It supersedes older kickoff notes.
   plan. That app is retired from bookkeeping; nothing new gets built on it.
   If you encounter references to "mw-accounting" or a D1 accounting app,
   that's the superseded system, not this one.
+- **mw-accounting TORN DOWN 2026-08-14** (Webster's order): Worker + D1 deleted
+  from Cloudflare. Final export (1,724 txns, all personal cards, CSV/Rocket
+  Money, 2026-01-01..2026-08-01): `data/d1-backup/` in this repo.
+  **Cross-check run 2026-08-14:** 687 of 1,724 match this ledger; **1,037 do
+  not, and ~96% of those fall BEFORE the SimpleFIN history start (~2026-05-18)**
+  — i.e. the backup holds Jan→mid-May 2026 for ~12 personal accounts the feed
+  never reached. That is the "pre-history months" half of Next-steps §5,
+  pre-solved: ingest from `data/d1-backup/` (already normalized, even
+  categorized) instead of parsing statements for those months. Unmatched rows:
+  `inventory/d1-crosscheck-unmatched-2026-08-14.csv`. Caveats: nothing for
+  2025 (statements still needed there), business accounts not covered, and
+  three cards in the backup have no ledger account yet (Discover 6368 +
+  WF Platinum 4965 = open flags 1–2; CapOne Quicksilver 9993, near-dead,
+  3 txns). Evidence for flag 2: Discover 6368 carries Anthropic, Real Geeks,
+  and HighLevel subscriptions — Webster-profile business-tool spend on a
+  personal-name card; still needs his word on whose it is.
 - Books start date: **2025-01-01** (Webster's call). Opening balances: Claude
   derives from feed history, Webster confirms every number (nothing locked yet).
 - Inventory: `inventory/account-inventory.csv` — 36 rows, final except 5 flags
